@@ -39,4 +39,4 @@ Enable Babel macros by adding "macros" to the plugin configuration:
 
 ## Code credits
 
-This project stemmed from [babel-plugin-tailwind-components](https://github.com/bradlc/babel-plugin-tailwind-components) and [twin.macro](https://github.com/ben-rogerson/twin.macro)
+This project stemmed from [tailwind-rn](https://github.com/vadimdemedes/tailwind-rn) and [twin.macro](https://github.com/ben-rogerson/twin.macro)

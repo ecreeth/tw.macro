@@ -1,6 +1,6 @@
 {
   "name": "@ecreeth/tw.macro",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/ecreeth/tw.macro#readme",
   "description": "Use Tailwind classes with React Native",
   "author": "Luis M. Alvarado <luismiguel1730@gmail.com>",
@@ -17,7 +17,7 @@
     "dev": "nodemon --watch src -x \"npm run build:macro\"",
     "build": "npm run build:all",
     "build:all": "npm run build:macro",
-    "build:macro": "microbundle -i src/macro.js -f cjs -o ./macro.js --compress --no-sourcemap --target node",
+    "build:macro": "microbundle -i src/macro.js -f cjs -o ./macro.js --compress --no-sourcemap",
     "test": "npm run build && jest",
     "prepublish": "npm run build"
   },

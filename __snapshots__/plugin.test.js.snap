@@ -1,0 +1,4937 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tailwind.macro backgrounds.js: backgrounds.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/background-color
+tw\`bg-transparent text-sm text-blue-500\`
+
+tw\`bg-black\`
+tw\`bg-white\`
+tw\`bg-gray-100\`
+tw\`bg-gray-200\`
+tw\`bg-gray-300\`
+tw\`bg-gray-400\`
+tw\`bg-gray-500\`
+tw\`bg-gray-600\`
+tw\`bg-gray-700\`
+tw\`bg-gray-800\`
+tw\`bg-gray-900\`
+tw\`bg-red-100\`
+tw\`bg-red-200\`
+tw\`bg-red-300\`
+tw\`bg-red-400\`
+tw\`bg-red-500\`
+tw\`bg-red-600\`
+tw\`bg-red-700\`
+tw\`bg-red-800\`
+tw\`bg-red-900\`
+tw\`bg-orange-100\`
+tw\`bg-orange-200\`
+tw\`bg-orange-300\`
+tw\`bg-orange-400\`
+tw\`bg-orange-500\`
+tw\`bg-orange-600\`
+tw\`bg-orange-700\`
+tw\`bg-orange-800\`
+tw\`bg-orange-900\`
+tw\`bg-yellow-100\`
+tw\`bg-yellow-200\`
+tw\`bg-yellow-300\`
+tw\`bg-yellow-400\`
+tw\`bg-yellow-500\`
+tw\`bg-yellow-600\`
+tw\`bg-yellow-700\`
+tw\`bg-yellow-800\`
+tw\`bg-yellow-900\`
+tw\`bg-green-100\`
+tw\`bg-green-200\`
+tw\`bg-green-300\`
+tw\`bg-green-400\`
+tw\`bg-green-500\`
+tw\`bg-green-600\`
+tw\`bg-green-700\`
+tw\`bg-green-800\`
+tw\`bg-green-900\`
+tw\`bg-teal-100\`
+tw\`bg-teal-200\`
+tw\`bg-teal-300\`
+tw\`bg-teal-400\`
+tw\`bg-teal-500\`
+tw\`bg-teal-600\`
+tw\`bg-teal-700\`
+tw\`bg-teal-800\`
+tw\`bg-teal-900\`
+tw\`bg-blue-100\`
+tw\`bg-blue-200\`
+tw\`bg-blue-300\`
+tw\`bg-blue-400\`
+tw\`bg-blue-500\`
+tw\`bg-blue-600\`
+tw\`bg-blue-700\`
+tw\`bg-blue-800\`
+tw\`bg-blue-900\`
+tw\`bg-indigo-100\`
+tw\`bg-indigo-200\`
+tw\`bg-indigo-300\`
+tw\`bg-indigo-400\`
+tw\`bg-indigo-500\`
+tw\`bg-indigo-600\`
+tw\`bg-indigo-700\`
+tw\`bg-indigo-800\`
+tw\`bg-indigo-900\`
+tw\`bg-purple-100\`
+tw\`bg-purple-200\`
+tw\`bg-purple-300\`
+tw\`bg-purple-400\`
+tw\`bg-purple-500\`
+tw\`bg-purple-600\`
+tw\`bg-purple-700\`
+tw\`bg-purple-800\`
+tw\`bg-purple-900\`
+tw\`bg-pink-100\`
+tw\`bg-pink-200\`
+tw\`bg-pink-300\`
+tw\`bg-pink-400\`
+tw\`bg-pink-500\`
+tw\`bg-pink-600\`
+tw\`bg-pink-700\`
+tw\`bg-pink-800\`
+tw\`bg-pink-900\`
+
+// https://tailwindcss.com/docs/border-color
+tw\`border-transparent\`
+tw\`border-black\`
+tw\`border-white\`
+tw\`border-gray-100\`
+tw\`border-gray-200\`
+tw\`border-gray-300\`
+tw\`border-gray-400\`
+tw\`border-gray-500\`
+tw\`border-gray-600\`
+tw\`border-gray-700\`
+tw\`border-gray-800\`
+tw\`border-gray-900\`
+tw\`border-red-100\`
+tw\`border-red-200\`
+tw\`border-red-300\`
+tw\`border-red-400\`
+tw\`border-red-500\`
+tw\`border-red-600\`
+tw\`border-red-700\`
+tw\`border-red-800\`
+tw\`border-red-900\`
+tw\`border-orange-100\`
+tw\`border-orange-200\`
+tw\`border-orange-300\`
+tw\`border-orange-400\`
+tw\`border-orange-500\`
+tw\`border-orange-600\`
+tw\`border-orange-700\`
+tw\`border-orange-800\`
+tw\`border-orange-900\`
+tw\`border-yellow-100\`
+tw\`border-yellow-200\`
+tw\`border-yellow-300\`
+tw\`border-yellow-400\`
+tw\`border-yellow-500\`
+tw\`border-yellow-600\`
+tw\`border-yellow-700\`
+tw\`border-yellow-800\`
+tw\`border-yellow-900\`
+tw\`border-green-100\`
+tw\`border-green-200\`
+tw\`border-green-300\`
+tw\`border-green-400\`
+tw\`border-green-500\`
+tw\`border-green-600\`
+tw\`border-green-700\`
+tw\`border-green-800\`
+tw\`border-green-900\`
+tw\`border-teal-100\`
+tw\`border-teal-200\`
+tw\`border-teal-300\`
+tw\`border-teal-400\`
+tw\`border-teal-500\`
+tw\`border-teal-600\`
+tw\`border-teal-700\`
+tw\`border-teal-800\`
+tw\`border-teal-900\`
+tw\`border-blue-100\`
+tw\`border-blue-200\`
+tw\`border-blue-300\`
+tw\`border-blue-400\`
+tw\`border-blue-500\`
+tw\`border-blue-600\`
+tw\`border-blue-700\`
+tw\`border-blue-800\`
+tw\`border-blue-900\`
+tw\`border-indigo-100\`
+tw\`border-indigo-200\`
+tw\`border-indigo-300\`
+tw\`border-indigo-400\`
+tw\`border-indigo-500\`
+tw\`border-indigo-600\`
+tw\`border-indigo-700\`
+tw\`border-indigo-800\`
+tw\`border-indigo-900\`
+tw\`border-purple-100\`
+tw\`border-purple-200\`
+tw\`border-purple-300\`
+tw\`border-purple-400\`
+tw\`border-purple-500\`
+tw\`border-purple-600\`
+tw\`border-purple-700\`
+tw\`border-purple-800\`
+tw\`border-purple-900\`
+tw\`border-pink-100\`
+tw\`border-pink-200\`
+tw\`border-pink-300\`
+tw\`border-pink-400\`
+tw\`border-pink-500\`
+tw\`border-pink-600\`
+tw\`border-pink-700\`
+tw\`border-pink-800\`
+tw\`border-pink-900\`
+
+// https://tailwindcss.com/docs/border-style
+tw\`border-solid\`
+tw\`border-dashed\`
+tw\`border-dotted\`
+tw\`border-double\`
+tw\`border-none\`
+
+// https://tailwindcss.com/docs/border-width
+tw\`border\`
+tw\`border-0\`
+tw\`border-2\`
+tw\`border-4\`
+tw\`border-8\`
+tw\`border-t\`
+tw\`border-r\`
+tw\`border-b\`
+tw\`border-l\`
+tw\`border-t-0\`
+tw\`border-r-0\`
+tw\`border-b-0\`
+tw\`border-l-0\`
+tw\`border-t-2\`
+tw\`border-r-2\`
+tw\`border-b-2\`
+tw\`border-l-2\`
+tw\`border-t-4\`
+tw\`border-r-4\`
+tw\`border-b-4\`
+tw\`border-l-4\`
+tw\`border-t-8\`
+tw\`border-r-8\`
+tw\`border-b-8\`
+tw\`border-l-8\`
+
+// https://tailwindcss.com/docs/border-radius
+tw\`rounded-none\`
+tw\`rounded-sm\`
+tw\`rounded\`
+tw\`rounded-md\`
+tw\`rounded-lg\`
+tw\`rounded-full\`
+tw\`rounded-t-none\`
+tw\`rounded-r-none\`
+tw\`rounded-b-none\`
+tw\`rounded-l-none\`
+tw\`rounded-t-sm\`
+tw\`rounded-r-sm\`
+tw\`rounded-b-sm\`
+tw\`rounded-l-sm\`
+tw\`rounded-t\`
+tw\`rounded-r\`
+tw\`rounded-b\`
+tw\`rounded-l\`
+tw\`rounded-t-lg\`
+tw\`rounded-r-lg\`
+tw\`rounded-b-lg\`
+tw\`rounded-l-lg\`
+tw\`rounded-t-full\`
+tw\`rounded-r-full\`
+tw\`rounded-b-full\`
+tw\`rounded-l-full\`
+tw\`rounded-tl-none\`
+tw\`rounded-tr-none\`
+tw\`rounded-br-none\`
+tw\`rounded-bl-none\`
+tw\`rounded-tl-sm\`
+tw\`rounded-tr-sm\`
+tw\`rounded-br-sm\`
+tw\`rounded-bl-sm\`
+tw\`rounded-tl\`
+tw\`rounded-tr\`
+tw\`rounded-br\`
+tw\`rounded-bl\`
+tw\`rounded-tl-lg\`
+tw\`rounded-tr-lg\`
+tw\`rounded-br-lg\`
+tw\`rounded-bl-lg\`
+tw\`rounded-tl-full\`
+tw\`rounded-tr-full\`
+tw\`rounded-br-full\`
+tw\`rounded-bl-full\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/background-color
+;({
+  backgroundColor: 'transparent',
+  fontSize: 14,
+  color: '#4299e1'
+})
+;({
+  backgroundColor: '#000'
+})
+;({
+  backgroundColor: '#fff'
+})
+;({
+  backgroundColor: '#f7fafc'
+})
+;({
+  backgroundColor: '#edf2f7'
+})
+;({
+  backgroundColor: '#e2e8f0'
+})
+;({
+  backgroundColor: '#cbd5e0'
+})
+;({
+  backgroundColor: '#a0aec0'
+})
+;({
+  backgroundColor: '#718096'
+})
+;({
+  backgroundColor: '#4a5568'
+})
+;({
+  backgroundColor: '#2d3748'
+})
+;({
+  backgroundColor: '#1a202c'
+})
+;({
+  backgroundColor: '#fff5f5'
+})
+;({
+  backgroundColor: '#fed7d7'
+})
+;({
+  backgroundColor: '#feb2b2'
+})
+;({
+  backgroundColor: '#fc8181'
+})
+;({
+  backgroundColor: '#f56565'
+})
+;({
+  backgroundColor: '#e53e3e'
+})
+;({
+  backgroundColor: '#c53030'
+})
+;({
+  backgroundColor: '#9b2c2c'
+})
+;({
+  backgroundColor: '#742a2a'
+})
+;({
+  backgroundColor: '#fffaf0'
+})
+;({
+  backgroundColor: '#feebc8'
+})
+;({
+  backgroundColor: '#fbd38d'
+})
+;({
+  backgroundColor: '#f6ad55'
+})
+;({
+  backgroundColor: '#ed8936'
+})
+;({
+  backgroundColor: '#dd6b20'
+})
+;({
+  backgroundColor: '#c05621'
+})
+;({
+  backgroundColor: '#9c4221'
+})
+;({
+  backgroundColor: '#7b341e'
+})
+;({
+  backgroundColor: '#fffff0'
+})
+;({
+  backgroundColor: '#fefcbf'
+})
+;({
+  backgroundColor: '#faf089'
+})
+;({
+  backgroundColor: '#f6e05e'
+})
+;({
+  backgroundColor: '#ecc94b'
+})
+;({
+  backgroundColor: '#d69e2e'
+})
+;({
+  backgroundColor: '#b7791f'
+})
+;({
+  backgroundColor: '#975a16'
+})
+;({
+  backgroundColor: '#744210'
+})
+;({
+  backgroundColor: '#f0fff4'
+})
+;({
+  backgroundColor: '#c6f6d5'
+})
+;({
+  backgroundColor: '#9ae6b4'
+})
+;({
+  backgroundColor: '#68d391'
+})
+;({
+  backgroundColor: '#48bb78'
+})
+;({
+  backgroundColor: '#38a169'
+})
+;({
+  backgroundColor: '#2f855a'
+})
+;({
+  backgroundColor: '#276749'
+})
+;({
+  backgroundColor: '#22543d'
+})
+;({
+  backgroundColor: '#e6fffa'
+})
+;({
+  backgroundColor: '#b2f5ea'
+})
+;({
+  backgroundColor: '#81e6d9'
+})
+;({
+  backgroundColor: '#4fd1c5'
+})
+;({
+  backgroundColor: '#38b2ac'
+})
+;({
+  backgroundColor: '#319795'
+})
+;({
+  backgroundColor: '#2c7a7b'
+})
+;({
+  backgroundColor: '#285e61'
+})
+;({
+  backgroundColor: '#234e52'
+})
+;({
+  backgroundColor: '#ebf8ff'
+})
+;({
+  backgroundColor: '#bee3f8'
+})
+;({
+  backgroundColor: '#90cdf4'
+})
+;({
+  backgroundColor: '#63b3ed'
+})
+;({
+  backgroundColor: '#4299e1'
+})
+;({
+  backgroundColor: '#3182ce'
+})
+;({
+  backgroundColor: '#2b6cb0'
+})
+;({
+  backgroundColor: '#2c5282'
+})
+;({
+  backgroundColor: '#2a4365'
+})
+;({
+  backgroundColor: '#ebf4ff'
+})
+;({
+  backgroundColor: '#c3dafe'
+})
+;({
+  backgroundColor: '#a3bffa'
+})
+;({
+  backgroundColor: '#7f9cf5'
+})
+;({
+  backgroundColor: '#667eea'
+})
+;({
+  backgroundColor: '#5a67d8'
+})
+;({
+  backgroundColor: '#4c51bf'
+})
+;({
+  backgroundColor: '#434190'
+})
+;({
+  backgroundColor: '#3c366b'
+})
+;({
+  backgroundColor: '#faf5ff'
+})
+;({
+  backgroundColor: '#e9d8fd'
+})
+;({
+  backgroundColor: '#d6bcfa'
+})
+;({
+  backgroundColor: '#b794f4'
+})
+;({
+  backgroundColor: '#9f7aea'
+})
+;({
+  backgroundColor: '#805ad5'
+})
+;({
+  backgroundColor: '#6b46c1'
+})
+;({
+  backgroundColor: '#553c9a'
+})
+;({
+  backgroundColor: '#44337a'
+})
+;({
+  backgroundColor: '#fff5f7'
+})
+;({
+  backgroundColor: '#fed7e2'
+})
+;({
+  backgroundColor: '#fbb6ce'
+})
+;({
+  backgroundColor: '#f687b3'
+})
+;({
+  backgroundColor: '#ed64a6'
+})
+;({
+  backgroundColor: '#d53f8c'
+})
+;({
+  backgroundColor: '#b83280'
+})
+;({
+  backgroundColor: '#97266d'
+})
+;({
+  backgroundColor: '#702459'
+}) // https://tailwindcss.com/docs/border-color
+
+;({
+  borderTopColor: 'transparent',
+  borderRightColor: 'transparent',
+  borderBottomColor: 'transparent',
+  borderLeftColor: 'transparent'
+})
+;({
+  borderTopColor: '#000',
+  borderRightColor: '#000',
+  borderBottomColor: '#000',
+  borderLeftColor: '#000'
+})
+;({
+  borderTopColor: '#fff',
+  borderRightColor: '#fff',
+  borderBottomColor: '#fff',
+  borderLeftColor: '#fff'
+})
+;({
+  borderTopColor: '#f7fafc',
+  borderRightColor: '#f7fafc',
+  borderBottomColor: '#f7fafc',
+  borderLeftColor: '#f7fafc'
+})
+;({
+  borderTopColor: '#edf2f7',
+  borderRightColor: '#edf2f7',
+  borderBottomColor: '#edf2f7',
+  borderLeftColor: '#edf2f7'
+})
+;({
+  borderTopColor: '#e2e8f0',
+  borderRightColor: '#e2e8f0',
+  borderBottomColor: '#e2e8f0',
+  borderLeftColor: '#e2e8f0'
+})
+;({
+  borderTopColor: '#cbd5e0',
+  borderRightColor: '#cbd5e0',
+  borderBottomColor: '#cbd5e0',
+  borderLeftColor: '#cbd5e0'
+})
+;({
+  borderTopColor: '#a0aec0',
+  borderRightColor: '#a0aec0',
+  borderBottomColor: '#a0aec0',
+  borderLeftColor: '#a0aec0'
+})
+;({
+  borderTopColor: '#718096',
+  borderRightColor: '#718096',
+  borderBottomColor: '#718096',
+  borderLeftColor: '#718096'
+})
+;({
+  borderTopColor: '#4a5568',
+  borderRightColor: '#4a5568',
+  borderBottomColor: '#4a5568',
+  borderLeftColor: '#4a5568'
+})
+;({
+  borderTopColor: '#2d3748',
+  borderRightColor: '#2d3748',
+  borderBottomColor: '#2d3748',
+  borderLeftColor: '#2d3748'
+})
+;({
+  borderTopColor: '#1a202c',
+  borderRightColor: '#1a202c',
+  borderBottomColor: '#1a202c',
+  borderLeftColor: '#1a202c'
+})
+;({
+  borderTopColor: '#fff5f5',
+  borderRightColor: '#fff5f5',
+  borderBottomColor: '#fff5f5',
+  borderLeftColor: '#fff5f5'
+})
+;({
+  borderTopColor: '#fed7d7',
+  borderRightColor: '#fed7d7',
+  borderBottomColor: '#fed7d7',
+  borderLeftColor: '#fed7d7'
+})
+;({
+  borderTopColor: '#feb2b2',
+  borderRightColor: '#feb2b2',
+  borderBottomColor: '#feb2b2',
+  borderLeftColor: '#feb2b2'
+})
+;({
+  borderTopColor: '#fc8181',
+  borderRightColor: '#fc8181',
+  borderBottomColor: '#fc8181',
+  borderLeftColor: '#fc8181'
+})
+;({
+  borderTopColor: '#f56565',
+  borderRightColor: '#f56565',
+  borderBottomColor: '#f56565',
+  borderLeftColor: '#f56565'
+})
+;({
+  borderTopColor: '#e53e3e',
+  borderRightColor: '#e53e3e',
+  borderBottomColor: '#e53e3e',
+  borderLeftColor: '#e53e3e'
+})
+;({
+  borderTopColor: '#c53030',
+  borderRightColor: '#c53030',
+  borderBottomColor: '#c53030',
+  borderLeftColor: '#c53030'
+})
+;({
+  borderTopColor: '#9b2c2c',
+  borderRightColor: '#9b2c2c',
+  borderBottomColor: '#9b2c2c',
+  borderLeftColor: '#9b2c2c'
+})
+;({
+  borderTopColor: '#742a2a',
+  borderRightColor: '#742a2a',
+  borderBottomColor: '#742a2a',
+  borderLeftColor: '#742a2a'
+})
+;({
+  borderTopColor: '#fffaf0',
+  borderRightColor: '#fffaf0',
+  borderBottomColor: '#fffaf0',
+  borderLeftColor: '#fffaf0'
+})
+;({
+  borderTopColor: '#feebc8',
+  borderRightColor: '#feebc8',
+  borderBottomColor: '#feebc8',
+  borderLeftColor: '#feebc8'
+})
+;({
+  borderTopColor: '#fbd38d',
+  borderRightColor: '#fbd38d',
+  borderBottomColor: '#fbd38d',
+  borderLeftColor: '#fbd38d'
+})
+;({
+  borderTopColor: '#f6ad55',
+  borderRightColor: '#f6ad55',
+  borderBottomColor: '#f6ad55',
+  borderLeftColor: '#f6ad55'
+})
+;({
+  borderTopColor: '#ed8936',
+  borderRightColor: '#ed8936',
+  borderBottomColor: '#ed8936',
+  borderLeftColor: '#ed8936'
+})
+;({
+  borderTopColor: '#dd6b20',
+  borderRightColor: '#dd6b20',
+  borderBottomColor: '#dd6b20',
+  borderLeftColor: '#dd6b20'
+})
+;({
+  borderTopColor: '#c05621',
+  borderRightColor: '#c05621',
+  borderBottomColor: '#c05621',
+  borderLeftColor: '#c05621'
+})
+;({
+  borderTopColor: '#9c4221',
+  borderRightColor: '#9c4221',
+  borderBottomColor: '#9c4221',
+  borderLeftColor: '#9c4221'
+})
+;({
+  borderTopColor: '#7b341e',
+  borderRightColor: '#7b341e',
+  borderBottomColor: '#7b341e',
+  borderLeftColor: '#7b341e'
+})
+;({
+  borderTopColor: '#fffff0',
+  borderRightColor: '#fffff0',
+  borderBottomColor: '#fffff0',
+  borderLeftColor: '#fffff0'
+})
+;({
+  borderTopColor: '#fefcbf',
+  borderRightColor: '#fefcbf',
+  borderBottomColor: '#fefcbf',
+  borderLeftColor: '#fefcbf'
+})
+;({
+  borderTopColor: '#faf089',
+  borderRightColor: '#faf089',
+  borderBottomColor: '#faf089',
+  borderLeftColor: '#faf089'
+})
+;({
+  borderTopColor: '#f6e05e',
+  borderRightColor: '#f6e05e',
+  borderBottomColor: '#f6e05e',
+  borderLeftColor: '#f6e05e'
+})
+;({
+  borderTopColor: '#ecc94b',
+  borderRightColor: '#ecc94b',
+  borderBottomColor: '#ecc94b',
+  borderLeftColor: '#ecc94b'
+})
+;({
+  borderTopColor: '#d69e2e',
+  borderRightColor: '#d69e2e',
+  borderBottomColor: '#d69e2e',
+  borderLeftColor: '#d69e2e'
+})
+;({
+  borderTopColor: '#b7791f',
+  borderRightColor: '#b7791f',
+  borderBottomColor: '#b7791f',
+  borderLeftColor: '#b7791f'
+})
+;({
+  borderTopColor: '#975a16',
+  borderRightColor: '#975a16',
+  borderBottomColor: '#975a16',
+  borderLeftColor: '#975a16'
+})
+;({
+  borderTopColor: '#744210',
+  borderRightColor: '#744210',
+  borderBottomColor: '#744210',
+  borderLeftColor: '#744210'
+})
+;({
+  borderTopColor: '#f0fff4',
+  borderRightColor: '#f0fff4',
+  borderBottomColor: '#f0fff4',
+  borderLeftColor: '#f0fff4'
+})
+;({
+  borderTopColor: '#c6f6d5',
+  borderRightColor: '#c6f6d5',
+  borderBottomColor: '#c6f6d5',
+  borderLeftColor: '#c6f6d5'
+})
+;({
+  borderTopColor: '#9ae6b4',
+  borderRightColor: '#9ae6b4',
+  borderBottomColor: '#9ae6b4',
+  borderLeftColor: '#9ae6b4'
+})
+;({
+  borderTopColor: '#68d391',
+  borderRightColor: '#68d391',
+  borderBottomColor: '#68d391',
+  borderLeftColor: '#68d391'
+})
+;({
+  borderTopColor: '#48bb78',
+  borderRightColor: '#48bb78',
+  borderBottomColor: '#48bb78',
+  borderLeftColor: '#48bb78'
+})
+;({
+  borderTopColor: '#38a169',
+  borderRightColor: '#38a169',
+  borderBottomColor: '#38a169',
+  borderLeftColor: '#38a169'
+})
+;({
+  borderTopColor: '#2f855a',
+  borderRightColor: '#2f855a',
+  borderBottomColor: '#2f855a',
+  borderLeftColor: '#2f855a'
+})
+;({
+  borderTopColor: '#276749',
+  borderRightColor: '#276749',
+  borderBottomColor: '#276749',
+  borderLeftColor: '#276749'
+})
+;({
+  borderTopColor: '#22543d',
+  borderRightColor: '#22543d',
+  borderBottomColor: '#22543d',
+  borderLeftColor: '#22543d'
+})
+;({
+  borderTopColor: '#e6fffa',
+  borderRightColor: '#e6fffa',
+  borderBottomColor: '#e6fffa',
+  borderLeftColor: '#e6fffa'
+})
+;({
+  borderTopColor: '#b2f5ea',
+  borderRightColor: '#b2f5ea',
+  borderBottomColor: '#b2f5ea',
+  borderLeftColor: '#b2f5ea'
+})
+;({
+  borderTopColor: '#81e6d9',
+  borderRightColor: '#81e6d9',
+  borderBottomColor: '#81e6d9',
+  borderLeftColor: '#81e6d9'
+})
+;({
+  borderTopColor: '#4fd1c5',
+  borderRightColor: '#4fd1c5',
+  borderBottomColor: '#4fd1c5',
+  borderLeftColor: '#4fd1c5'
+})
+;({
+  borderTopColor: '#38b2ac',
+  borderRightColor: '#38b2ac',
+  borderBottomColor: '#38b2ac',
+  borderLeftColor: '#38b2ac'
+})
+;({
+  borderTopColor: '#319795',
+  borderRightColor: '#319795',
+  borderBottomColor: '#319795',
+  borderLeftColor: '#319795'
+})
+;({
+  borderTopColor: '#2c7a7b',
+  borderRightColor: '#2c7a7b',
+  borderBottomColor: '#2c7a7b',
+  borderLeftColor: '#2c7a7b'
+})
+;({
+  borderTopColor: '#285e61',
+  borderRightColor: '#285e61',
+  borderBottomColor: '#285e61',
+  borderLeftColor: '#285e61'
+})
+;({
+  borderTopColor: '#234e52',
+  borderRightColor: '#234e52',
+  borderBottomColor: '#234e52',
+  borderLeftColor: '#234e52'
+})
+;({
+  borderTopColor: '#ebf8ff',
+  borderRightColor: '#ebf8ff',
+  borderBottomColor: '#ebf8ff',
+  borderLeftColor: '#ebf8ff'
+})
+;({
+  borderTopColor: '#bee3f8',
+  borderRightColor: '#bee3f8',
+  borderBottomColor: '#bee3f8',
+  borderLeftColor: '#bee3f8'
+})
+;({
+  borderTopColor: '#90cdf4',
+  borderRightColor: '#90cdf4',
+  borderBottomColor: '#90cdf4',
+  borderLeftColor: '#90cdf4'
+})
+;({
+  borderTopColor: '#63b3ed',
+  borderRightColor: '#63b3ed',
+  borderBottomColor: '#63b3ed',
+  borderLeftColor: '#63b3ed'
+})
+;({
+  borderTopColor: '#4299e1',
+  borderRightColor: '#4299e1',
+  borderBottomColor: '#4299e1',
+  borderLeftColor: '#4299e1'
+})
+;({
+  borderTopColor: '#3182ce',
+  borderRightColor: '#3182ce',
+  borderBottomColor: '#3182ce',
+  borderLeftColor: '#3182ce'
+})
+;({
+  borderTopColor: '#2b6cb0',
+  borderRightColor: '#2b6cb0',
+  borderBottomColor: '#2b6cb0',
+  borderLeftColor: '#2b6cb0'
+})
+;({
+  borderTopColor: '#2c5282',
+  borderRightColor: '#2c5282',
+  borderBottomColor: '#2c5282',
+  borderLeftColor: '#2c5282'
+})
+;({
+  borderTopColor: '#2a4365',
+  borderRightColor: '#2a4365',
+  borderBottomColor: '#2a4365',
+  borderLeftColor: '#2a4365'
+})
+;({
+  borderTopColor: '#ebf4ff',
+  borderRightColor: '#ebf4ff',
+  borderBottomColor: '#ebf4ff',
+  borderLeftColor: '#ebf4ff'
+})
+;({
+  borderTopColor: '#c3dafe',
+  borderRightColor: '#c3dafe',
+  borderBottomColor: '#c3dafe',
+  borderLeftColor: '#c3dafe'
+})
+;({
+  borderTopColor: '#a3bffa',
+  borderRightColor: '#a3bffa',
+  borderBottomColor: '#a3bffa',
+  borderLeftColor: '#a3bffa'
+})
+;({
+  borderTopColor: '#7f9cf5',
+  borderRightColor: '#7f9cf5',
+  borderBottomColor: '#7f9cf5',
+  borderLeftColor: '#7f9cf5'
+})
+;({
+  borderTopColor: '#667eea',
+  borderRightColor: '#667eea',
+  borderBottomColor: '#667eea',
+  borderLeftColor: '#667eea'
+})
+;({
+  borderTopColor: '#5a67d8',
+  borderRightColor: '#5a67d8',
+  borderBottomColor: '#5a67d8',
+  borderLeftColor: '#5a67d8'
+})
+;({
+  borderTopColor: '#4c51bf',
+  borderRightColor: '#4c51bf',
+  borderBottomColor: '#4c51bf',
+  borderLeftColor: '#4c51bf'
+})
+;({
+  borderTopColor: '#434190',
+  borderRightColor: '#434190',
+  borderBottomColor: '#434190',
+  borderLeftColor: '#434190'
+})
+;({
+  borderTopColor: '#3c366b',
+  borderRightColor: '#3c366b',
+  borderBottomColor: '#3c366b',
+  borderLeftColor: '#3c366b'
+})
+;({
+  borderTopColor: '#faf5ff',
+  borderRightColor: '#faf5ff',
+  borderBottomColor: '#faf5ff',
+  borderLeftColor: '#faf5ff'
+})
+;({
+  borderTopColor: '#e9d8fd',
+  borderRightColor: '#e9d8fd',
+  borderBottomColor: '#e9d8fd',
+  borderLeftColor: '#e9d8fd'
+})
+;({
+  borderTopColor: '#d6bcfa',
+  borderRightColor: '#d6bcfa',
+  borderBottomColor: '#d6bcfa',
+  borderLeftColor: '#d6bcfa'
+})
+;({
+  borderTopColor: '#b794f4',
+  borderRightColor: '#b794f4',
+  borderBottomColor: '#b794f4',
+  borderLeftColor: '#b794f4'
+})
+;({
+  borderTopColor: '#9f7aea',
+  borderRightColor: '#9f7aea',
+  borderBottomColor: '#9f7aea',
+  borderLeftColor: '#9f7aea'
+})
+;({
+  borderTopColor: '#805ad5',
+  borderRightColor: '#805ad5',
+  borderBottomColor: '#805ad5',
+  borderLeftColor: '#805ad5'
+})
+;({
+  borderTopColor: '#6b46c1',
+  borderRightColor: '#6b46c1',
+  borderBottomColor: '#6b46c1',
+  borderLeftColor: '#6b46c1'
+})
+;({
+  borderTopColor: '#553c9a',
+  borderRightColor: '#553c9a',
+  borderBottomColor: '#553c9a',
+  borderLeftColor: '#553c9a'
+})
+;({
+  borderTopColor: '#44337a',
+  borderRightColor: '#44337a',
+  borderBottomColor: '#44337a',
+  borderLeftColor: '#44337a'
+})
+;({
+  borderTopColor: '#fff5f7',
+  borderRightColor: '#fff5f7',
+  borderBottomColor: '#fff5f7',
+  borderLeftColor: '#fff5f7'
+})
+;({
+  borderTopColor: '#fed7e2',
+  borderRightColor: '#fed7e2',
+  borderBottomColor: '#fed7e2',
+  borderLeftColor: '#fed7e2'
+})
+;({
+  borderTopColor: '#fbb6ce',
+  borderRightColor: '#fbb6ce',
+  borderBottomColor: '#fbb6ce',
+  borderLeftColor: '#fbb6ce'
+})
+;({
+  borderTopColor: '#f687b3',
+  borderRightColor: '#f687b3',
+  borderBottomColor: '#f687b3',
+  borderLeftColor: '#f687b3'
+})
+;({
+  borderTopColor: '#ed64a6',
+  borderRightColor: '#ed64a6',
+  borderBottomColor: '#ed64a6',
+  borderLeftColor: '#ed64a6'
+})
+;({
+  borderTopColor: '#d53f8c',
+  borderRightColor: '#d53f8c',
+  borderBottomColor: '#d53f8c',
+  borderLeftColor: '#d53f8c'
+})
+;({
+  borderTopColor: '#b83280',
+  borderRightColor: '#b83280',
+  borderBottomColor: '#b83280',
+  borderLeftColor: '#b83280'
+})
+;({
+  borderTopColor: '#97266d',
+  borderRightColor: '#97266d',
+  borderBottomColor: '#97266d',
+  borderLeftColor: '#97266d'
+})
+;({
+  borderTopColor: '#702459',
+  borderRightColor: '#702459',
+  borderBottomColor: '#702459',
+  borderLeftColor: '#702459'
+}) // https://tailwindcss.com/docs/border-style
+
+;({
+  borderStyle: 'solid'
+})
+;({
+  borderStyle: 'dashed'
+})
+;({
+  borderStyle: 'dotted'
+})
+;({
+  borderStyle: 'double'
+})
+;({
+  borderStyle: 'none'
+}) // https://tailwindcss.com/docs/border-width
+
+;({
+  borderTopWidth: 1,
+  borderRightWidth: 1,
+  borderBottomWidth: 1,
+  borderLeftWidth: 1
+})
+;({
+  borderTopWidth: 0,
+  borderRightWidth: 0,
+  borderBottomWidth: 0,
+  borderLeftWidth: 0
+})
+;({
+  borderTopWidth: 2,
+  borderRightWidth: 2,
+  borderBottomWidth: 2,
+  borderLeftWidth: 2
+})
+;({
+  borderTopWidth: 4,
+  borderRightWidth: 4,
+  borderBottomWidth: 4,
+  borderLeftWidth: 4
+})
+;({
+  borderTopWidth: 8,
+  borderRightWidth: 8,
+  borderBottomWidth: 8,
+  borderLeftWidth: 8
+})
+;({
+  borderTopWidth: 1
+})
+;({
+  borderRightWidth: 1
+})
+;({
+  borderBottomWidth: 1
+})
+;({
+  borderLeftWidth: 1
+})
+;({
+  borderTopWidth: 0
+})
+;({
+  borderRightWidth: 0
+})
+;({
+  borderBottomWidth: 0
+})
+;({
+  borderLeftWidth: 0
+})
+;({
+  borderTopWidth: 2
+})
+;({
+  borderRightWidth: 2
+})
+;({
+  borderBottomWidth: 2
+})
+;({
+  borderLeftWidth: 2
+})
+;({
+  borderTopWidth: 4
+})
+;({
+  borderRightWidth: 4
+})
+;({
+  borderBottomWidth: 4
+})
+;({
+  borderLeftWidth: 4
+})
+;({
+  borderTopWidth: 8
+})
+;({
+  borderRightWidth: 8
+})
+;({
+  borderBottomWidth: 8
+})
+;({
+  borderLeftWidth: 8
+}) // https://tailwindcss.com/docs/border-radius
+
+;({
+  borderTopLeftRadius: 0,
+  borderTopRightRadius: 0,
+  borderBottomRightRadius: 0,
+  borderBottomLeftRadius: 0
+})
+;({
+  borderTopLeftRadius: 2,
+  borderTopRightRadius: 2,
+  borderBottomRightRadius: 2,
+  borderBottomLeftRadius: 2
+})
+;({
+  borderTopLeftRadius: 4,
+  borderTopRightRadius: 4,
+  borderBottomRightRadius: 4,
+  borderBottomLeftRadius: 4
+})
+;({
+  borderTopLeftRadius: 6,
+  borderTopRightRadius: 6,
+  borderBottomRightRadius: 6,
+  borderBottomLeftRadius: 6
+})
+;({
+  borderTopLeftRadius: 8,
+  borderTopRightRadius: 8,
+  borderBottomRightRadius: 8,
+  borderBottomLeftRadius: 8
+})
+;({
+  borderTopLeftRadius: 9999,
+  borderTopRightRadius: 9999,
+  borderBottomRightRadius: 9999,
+  borderBottomLeftRadius: 9999
+})
+;({
+  borderTopLeftRadius: 0,
+  borderTopRightRadius: 0
+})
+;({
+  borderTopRightRadius: 0,
+  borderBottomRightRadius: 0
+})
+;({
+  borderBottomRightRadius: 0,
+  borderBottomLeftRadius: 0
+})
+;({
+  borderTopLeftRadius: 0,
+  borderBottomLeftRadius: 0
+})
+;({
+  borderTopLeftRadius: 2,
+  borderTopRightRadius: 2
+})
+;({
+  borderTopRightRadius: 2,
+  borderBottomRightRadius: 2
+})
+;({
+  borderBottomRightRadius: 2,
+  borderBottomLeftRadius: 2
+})
+;({
+  borderTopLeftRadius: 2,
+  borderBottomLeftRadius: 2
+})
+;({
+  borderTopLeftRadius: 4,
+  borderTopRightRadius: 4
+})
+;({
+  borderTopRightRadius: 4,
+  borderBottomRightRadius: 4
+})
+;({
+  borderBottomRightRadius: 4,
+  borderBottomLeftRadius: 4
+})
+;({
+  borderTopLeftRadius: 4,
+  borderBottomLeftRadius: 4
+})
+;({
+  borderTopLeftRadius: 8,
+  borderTopRightRadius: 8
+})
+;({
+  borderTopRightRadius: 8,
+  borderBottomRightRadius: 8
+})
+;({
+  borderBottomRightRadius: 8,
+  borderBottomLeftRadius: 8
+})
+;({
+  borderTopLeftRadius: 8,
+  borderBottomLeftRadius: 8
+})
+;({
+  borderTopLeftRadius: 9999,
+  borderTopRightRadius: 9999
+})
+;({
+  borderTopRightRadius: 9999,
+  borderBottomRightRadius: 9999
+})
+;({
+  borderBottomRightRadius: 9999,
+  borderBottomLeftRadius: 9999
+})
+;({
+  borderTopLeftRadius: 9999,
+  borderBottomLeftRadius: 9999
+})
+;({
+  borderTopLeftRadius: 0
+})
+;({
+  borderTopRightRadius: 0
+})
+;({
+  borderBottomRightRadius: 0
+})
+;({
+  borderBottomLeftRadius: 0
+})
+;({
+  borderTopLeftRadius: 2
+})
+;({
+  borderTopRightRadius: 2
+})
+;({
+  borderBottomRightRadius: 2
+})
+;({
+  borderBottomLeftRadius: 2
+})
+;({
+  borderTopLeftRadius: 4
+})
+;({
+  borderTopRightRadius: 4
+})
+;({
+  borderBottomRightRadius: 4
+})
+;({
+  borderBottomLeftRadius: 4
+})
+;({
+  borderTopLeftRadius: 8
+})
+;({
+  borderTopRightRadius: 8
+})
+;({
+  borderBottomRightRadius: 8
+})
+;({
+  borderBottomLeftRadius: 8
+})
+;({
+  borderTopLeftRadius: 9999
+})
+;({
+  borderTopRightRadius: 9999
+})
+;({
+  borderBottomRightRadius: 9999
+})
+;({
+  borderBottomLeftRadius: 9999
+})
+"
+`;
+
+exports[`tailwind.macro effects.js: effects.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/opacity
+tw\`opacity-100\`
+tw\`opacity-75\`
+tw\`opacity-50\`
+tw\`opacity-25\`
+tw\`opacity-0\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/opacity
+;({
+  opacity: 1
+})
+;({
+  opacity: 0.75
+})
+;({
+  opacity: 0.5
+})
+;({
+  opacity: 0.25
+})
+;({
+  opacity: 0
+})
+"
+`;
+
+exports[`tailwind.macro flexbox.js: flexbox.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/flex-direction
+tw\`flex-row\`
+tw\`flex-row-reverse\`
+tw\`flex-col\`
+tw\`flex-col-reverse\`
+
+// https://tailwindcss.com/docs/flex-wrap
+tw\`flex-no-wrap\`
+tw\`flex-wrap\`
+tw\`flex-wrap-reverse\`
+
+// https://tailwindcss.com/docs/align-items
+tw\`items-stretch\`
+tw\`items-start\`
+tw\`items-center\`
+tw\`items-end\`
+tw\`items-baseline\`
+
+// https://tailwindcss.com/docs/align-content
+tw\`content-start\`
+tw\`content-center\`
+tw\`content-end\`
+tw\`content-between\`
+tw\`content-around\`
+
+// https://tailwindcss.com/docs/align-self
+tw\`self-auto\`
+tw\`self-start\`
+tw\`self-center\`
+tw\`self-end\`
+tw\`self-stretch\`
+
+// https://tailwindcss.com/docs/justify-content
+tw\`justify-start\`
+tw\`justify-center\`
+tw\`justify-end\`
+tw\`justify-between\`
+tw\`justify-around\`
+
+// https://tailwindcss.com/docs/flex
+tw\`flex-initial\`
+tw\`flex-1\`
+tw\`flex-auto\`
+tw\`flex-none\`
+
+// https://tailwindcss.com/docs/flex-grow
+tw\`flex-grow\`
+tw\`flex-grow-0\`
+
+// https://tailwindcss.com/docs/flex-shrink
+tw\`flex-shrink\`
+tw\`flex-shrink-0\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/flex-direction
+;({
+  flexDirection: 'row'
+})
+;({
+  flexDirection: 'row-reverse'
+})
+;({
+  flexDirection: 'column'
+})
+;({
+  flexDirection: 'column-reverse'
+}) // https://tailwindcss.com/docs/flex-wrap
+
+;({
+  flexWrap: 'nowrap'
+})
+;({
+  flexWrap: 'wrap'
+})
+;({
+  flexWrap: 'wrap-reverse'
+}) // https://tailwindcss.com/docs/align-items
+
+;({
+  alignItems: 'stretch'
+})
+;({
+  alignItems: 'flex-start'
+})
+;({
+  alignItems: 'center'
+})
+;({
+  alignItems: 'flex-end'
+})
+;({
+  alignItems: 'baseline'
+}) // https://tailwindcss.com/docs/align-content
+
+;({
+  alignContent: 'flex-start'
+})
+;({
+  alignContent: 'center'
+})
+;({
+  alignContent: 'flex-end'
+})
+;({
+  alignContent: 'space-between'
+})
+;({
+  alignContent: 'space-around'
+}) // https://tailwindcss.com/docs/align-self
+
+;({
+  alignSelf: 'auto'
+})
+;({
+  alignSelf: 'flex-start'
+})
+;({
+  alignSelf: 'center'
+})
+;({
+  alignSelf: 'flex-end'
+})
+;({
+  alignSelf: 'stretch'
+}) // https://tailwindcss.com/docs/justify-content
+
+;({
+  justifyContent: 'flex-start'
+})
+;({
+  justifyContent: 'center'
+})
+;({
+  justifyContent: 'flex-end'
+})
+;({
+  justifyContent: 'space-between'
+})
+;({
+  justifyContent: 'space-around'
+}) // https://tailwindcss.com/docs/flex
+
+;({
+  flexGrow: 0,
+  flexShrink: 1,
+  flexBasis: 'auto'
+})
+;({
+  flexGrow: 1,
+  flexShrink: 1,
+  flexBasis: '0%'
+})
+;({
+  flexGrow: 1,
+  flexShrink: 1,
+  flexBasis: 'auto'
+})
+;({
+  flexGrow: 0,
+  flexShrink: 0,
+  flexBasis: 'auto'
+}) // https://tailwindcss.com/docs/flex-grow
+
+;({
+  flexGrow: 1
+})
+;({
+  flexGrow: 0
+}) // https://tailwindcss.com/docs/flex-shrink
+
+;({
+  flexShrink: 1
+})
+;({
+  flexShrink: 0
+})
+"
+`;
+
+exports[`tailwind.macro layout.js: layout.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/display
+tw\`hidden\`
+tw\`flex\`
+
+// https://tailwindcss.com/docs/position
+tw\`absolute\`
+tw\`relative\`
+
+// https://tailwindcss.com/docs/top-right-bottom-left
+tw\`inset-0\`
+tw\`inset-y-0\`
+tw\`inset-x-0\`
+tw\`top-0\`
+tw\`right-0\`
+tw\`bottom-0\`
+tw\`left-0\`
+
+// https://tailwindcss.com/docs/z-index
+tw\`z-0\`
+tw\`z-10\`
+tw\`z-20\`
+tw\`z-30\`
+tw\`z-40\`
+tw\`z-50\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/display
+;({
+  display: 'none'
+})
+;({
+  display: 'flex'
+}) // https://tailwindcss.com/docs/position
+
+;({
+  position: 'absolute'
+})
+;({
+  position: 'relative'
+}) // https://tailwindcss.com/docs/top-right-bottom-left
+
+;({
+  top: 0,
+  right: 0,
+  bottom: 0,
+  left: 0
+})
+;({
+  top: 0,
+  bottom: 0
+})
+;({
+  right: 0,
+  left: 0
+})
+;({
+  top: 0
+})
+;({
+  right: 0
+})
+;({
+  bottom: 0
+})
+;({
+  left: 0
+}) // https://tailwindcss.com/docs/z-index
+
+;({
+  zIndex: 0
+})
+;({
+  zIndex: 10
+})
+;({
+  zIndex: 20
+})
+;({
+  zIndex: 30
+})
+;({
+  zIndex: 40
+})
+;({
+  zIndex: 50
+})
+"
+`;
+
+exports[`tailwind.macro sizing.js: sizing.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/width
+tw\`w-0\`
+tw\`w-1\`
+tw\`w-2\`
+tw\`w-3\`
+tw\`w-4\`
+tw\`w-5\`
+tw\`w-6\`
+tw\`w-8\`
+tw\`w-10\`
+tw\`w-12\`
+tw\`w-16\`
+tw\`w-20\`
+tw\`w-24\`
+tw\`w-32\`
+tw\`w-40\`
+tw\`w-48\`
+tw\`w-56\`
+tw\`w-64\`
+tw\`w-px\`
+tw\`w-1/2\`
+tw\`w-1/3\`
+tw\`w-2/3\`
+tw\`w-1/4\`
+tw\`w-2/4\`
+tw\`w-3/4\`
+tw\`w-1/5\`
+tw\`w-2/5\`
+tw\`w-3/5\`
+tw\`w-4/5\`
+tw\`w-1/6\`
+tw\`w-2/6\`
+tw\`w-3/6\`
+tw\`w-4/6\`
+tw\`w-5/6\`
+tw\`w-1/12\`
+tw\`w-2/12\`
+tw\`w-3/12\`
+tw\`w-4/12\`
+tw\`w-5/12\`
+tw\`w-6/12\`
+tw\`w-7/12\`
+tw\`w-8/12\`
+tw\`w-9/12\`
+tw\`w-10/12\`
+tw\`w-11/12\`
+tw\`w-full\`
+
+// https://tailwindcss.com/docs/min-width
+tw\`min-w-0\`
+tw\`min-w-full\`
+
+// https://tailwindcss.com/docs/max-width
+tw\`max-w-xs\`
+tw\`max-w-sm\`
+tw\`max-w-md\`
+tw\`max-w-lg\`
+tw\`max-w-xl\`
+tw\`max-w-2xl\`
+tw\`max-w-3xl\`
+tw\`max-w-4xl\`
+tw\`max-w-5xl\`
+tw\`max-w-6xl\`
+tw\`max-w-full\`
+tw\`max-w-screen-sm\`
+tw\`max-w-screen-md\`
+tw\`max-w-screen-lg\`
+tw\`max-w-screen-xl\`
+tw\`max-w-none\`
+
+// https://tailwindcss.com/docs/height
+tw\`h-0\`
+tw\`h-1\`
+tw\`h-2\`
+tw\`h-3\`
+tw\`h-4\`
+tw\`h-5\`
+tw\`h-6\`
+tw\`h-8\`
+tw\`h-10\`
+tw\`h-12\`
+tw\`h-16\`
+tw\`h-20\`
+tw\`h-24\`
+tw\`h-32\`
+tw\`h-40\`
+tw\`h-48\`
+tw\`h-56\`
+tw\`h-64\`
+tw\`h-px\`
+tw\`h-full\`
+// https://tailwindcss.com/docs/min-height
+tw\`min-h-0\`
+tw\`min-h-full\`
+
+// https://tailwindcss.com/docs/max-height
+tw\`max-h-full\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/width
+;({
+  width: 0
+})
+;({
+  width: 4
+})
+;({
+  width: 8
+})
+;({
+  width: 12
+})
+;({
+  width: 16
+})
+;({
+  width: 20
+})
+;({
+  width: 24
+})
+;({
+  width: 32
+})
+;({
+  width: 40
+})
+;({
+  width: 48
+})
+;({
+  width: 64
+})
+;({
+  width: 80
+})
+;({
+  width: 96
+})
+;({
+  width: 128
+})
+;({
+  width: 160
+})
+;({
+  width: 192
+})
+;({
+  width: 224
+})
+;({
+  width: 256
+})
+;({
+  width: 1
+})
+;({
+  width: '50%'
+})
+;({
+  width: '33.333333%'
+})
+;({
+  width: '66.666667%'
+})
+;({
+  width: '25%'
+})
+;({
+  width: '50%'
+})
+;({
+  width: '75%'
+})
+;({
+  width: '20%'
+})
+;({
+  width: '40%'
+})
+;({
+  width: '60%'
+})
+;({
+  width: '80%'
+})
+;({
+  width: '16.666667%'
+})
+;({
+  width: '33.333333%'
+})
+;({
+  width: '50%'
+})
+;({
+  width: '66.666667%'
+})
+;({
+  width: '83.333333%'
+})
+;({
+  width: '8.333333%'
+})
+;({
+  width: '16.666667%'
+})
+;({
+  width: '25%'
+})
+;({
+  width: '33.333333%'
+})
+;({
+  width: '41.666667%'
+})
+;({
+  width: '50%'
+})
+;({
+  width: '58.333333%'
+})
+;({
+  width: '66.666667%'
+})
+;({
+  width: '75%'
+})
+;({
+  width: '83.333333%'
+})
+;({
+  width: '91.666667%'
+})
+;({
+  width: '100%'
+}) // https://tailwindcss.com/docs/min-width
+
+;({
+  minWidth: 0
+})
+;({
+  minWidth: '100%'
+}) // https://tailwindcss.com/docs/max-width
+
+;({
+  maxWidth: 320
+})
+;({
+  maxWidth: 384
+})
+;({
+  maxWidth: 448
+})
+;({
+  maxWidth: 512
+})
+;({
+  maxWidth: 576
+})
+;({
+  maxWidth: 672
+})
+;({
+  maxWidth: 768
+})
+;({
+  maxWidth: 896
+})
+;({
+  maxWidth: 1024
+})
+;({
+  maxWidth: 1152
+})
+;({
+  maxWidth: '100%'
+})
+;({
+  maxWidth: 640
+})
+;({
+  maxWidth: 768
+})
+;({
+  maxWidth: 1024
+})
+;({
+  maxWidth: 1280
+})
+;({
+  maxWidth: 'none'
+}) // https://tailwindcss.com/docs/height
+
+;({
+  height: 0
+})
+;({
+  height: 4
+})
+;({
+  height: 8
+})
+;({
+  height: 12
+})
+;({
+  height: 16
+})
+;({
+  height: 20
+})
+;({
+  height: 24
+})
+;({
+  height: 32
+})
+;({
+  height: 40
+})
+;({
+  height: 48
+})
+;({
+  height: 64
+})
+;({
+  height: 80
+})
+;({
+  height: 96
+})
+;({
+  height: 128
+})
+;({
+  height: 160
+})
+;({
+  height: 192
+})
+;({
+  height: 224
+})
+;({
+  height: 256
+})
+;({
+  height: 1
+})
+;({
+  height: '100%'
+}) // https://tailwindcss.com/docs/min-height
+
+;({
+  minHeight: 0
+})
+;({
+  minHeight: '100%'
+}) // https://tailwindcss.com/docs/max-height
+
+;({
+  maxHeight: '100%'
+})
+"
+`;
+
+exports[`tailwind.macro spacing.js: spacing.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/padding
+tw\`p-0\`
+tw\`p-1\`
+tw\`p-2\`
+tw\`p-3\`
+tw\`p-4\`
+tw\`p-5\`
+tw\`p-6\`
+tw\`p-8\`
+tw\`p-10\`
+tw\`p-12\`
+tw\`p-16\`
+tw\`p-20\`
+tw\`p-24\`
+tw\`p-32\`
+tw\`p-40\`
+tw\`p-48\`
+tw\`p-56\`
+tw\`p-64\`
+tw\`p-px\`
+tw\`py-0\`
+tw\`py-1\`
+tw\`py-2\`
+tw\`py-3\`
+tw\`py-4\`
+tw\`py-5\`
+tw\`py-6\`
+tw\`py-8\`
+tw\`py-10\`
+tw\`py-12\`
+tw\`py-16\`
+tw\`py-20\`
+tw\`py-24\`
+tw\`py-32\`
+tw\`py-40\`
+tw\`py-48\`
+tw\`py-56\`
+tw\`py-64\`
+tw\`py-px\`
+tw\`px-0\`
+tw\`px-1\`
+tw\`px-2\`
+tw\`px-3\`
+tw\`px-4\`
+tw\`px-5\`
+tw\`px-6\`
+tw\`px-8\`
+tw\`px-10\`
+tw\`px-12\`
+tw\`px-16\`
+tw\`px-20\`
+tw\`px-24\`
+tw\`px-32\`
+tw\`px-40\`
+tw\`px-48\`
+tw\`px-56\`
+tw\`px-64\`
+tw\`px-px\`
+tw\`pt-0\`
+tw\`pt-1\`
+tw\`pt-2\`
+tw\`pt-3\`
+tw\`pt-4\`
+tw\`pt-5\`
+tw\`pt-6\`
+tw\`pt-8\`
+tw\`pt-10\`
+tw\`pt-12\`
+tw\`pt-16\`
+tw\`pt-20\`
+tw\`pt-24\`
+tw\`pt-32\`
+tw\`pt-40\`
+tw\`pt-48\`
+tw\`pt-56\`
+tw\`pt-64\`
+tw\`pt-px\`
+tw\`pr-0\`
+tw\`pr-1\`
+tw\`pr-2\`
+tw\`pr-3\`
+tw\`pr-4\`
+tw\`pr-5\`
+tw\`pr-6\`
+tw\`pr-8\`
+tw\`pr-10\`
+tw\`pr-12\`
+tw\`pr-16\`
+tw\`pr-20\`
+tw\`pr-24\`
+tw\`pr-32\`
+tw\`pr-40\`
+tw\`pr-48\`
+tw\`pr-56\`
+tw\`pr-64\`
+tw\`pr-px\`
+tw\`pb-0\`
+tw\`pb-1\`
+tw\`pb-2\`
+tw\`pb-3\`
+tw\`pb-4\`
+tw\`pb-5\`
+tw\`pb-6\`
+tw\`pb-8\`
+tw\`pb-10\`
+tw\`pb-12\`
+tw\`pb-16\`
+tw\`pb-20\`
+tw\`pb-24\`
+tw\`pb-32\`
+tw\`pb-40\`
+tw\`pb-48\`
+tw\`pb-56\`
+tw\`pb-64\`
+tw\`pb-px\`
+tw\`pl-0\`
+tw\`pl-1\`
+tw\`pl-2\`
+tw\`pl-3\`
+tw\`pl-4\`
+tw\`pl-5\`
+tw\`pl-6\`
+tw\`pl-8\`
+tw\`pl-10\`
+tw\`pl-12\`
+tw\`pl-16\`
+tw\`pl-20\`
+tw\`pl-24\`
+tw\`pl-32\`
+tw\`pl-40\`
+tw\`pl-48\`
+tw\`pl-56\`
+tw\`pl-64\`
+tw\`pl-px\`
+
+// https://tailwindcss.com/docs/margin
+tw\`m-0\`
+tw\`m-1\`
+tw\`m-2\`
+tw\`m-3\`
+tw\`m-4\`
+tw\`m-5\`
+tw\`m-6\`
+tw\`m-8\`
+tw\`m-10\`
+tw\`m-12\`
+tw\`m-16\`
+tw\`m-20\`
+tw\`m-24\`
+tw\`m-32\`
+tw\`m-40\`
+tw\`m-48\`
+tw\`m-56\`
+tw\`m-64\`
+tw\`m-px\`
+tw\`-m-1\`
+tw\`-m-2\`
+tw\`-m-3\`
+tw\`-m-4\`
+tw\`-m-5\`
+tw\`-m-6\`
+tw\`-m-8\`
+tw\`-m-10\`
+tw\`-m-12\`
+tw\`-m-16\`
+tw\`-m-20\`
+tw\`-m-24\`
+tw\`-m-32\`
+tw\`-m-40\`
+tw\`-m-48\`
+tw\`-m-56\`
+tw\`-m-64\`
+tw\`-m-px\`
+tw\`my-0\`
+tw\`my-1\`
+tw\`my-2\`
+tw\`my-3\`
+tw\`my-4\`
+tw\`my-5\`
+tw\`my-6\`
+tw\`my-8\`
+tw\`my-10\`
+tw\`my-12\`
+tw\`my-16\`
+tw\`my-20\`
+tw\`my-24\`
+tw\`my-32\`
+tw\`my-40\`
+tw\`my-48\`
+tw\`my-56\`
+tw\`my-64\`
+tw\`my-px\`
+tw\`-my-1\`
+tw\`-my-2\`
+tw\`-my-3\`
+tw\`-my-4\`
+tw\`-my-5\`
+tw\`-my-6\`
+tw\`-my-8\`
+tw\`-my-10\`
+tw\`-my-12\`
+tw\`-my-16\`
+tw\`-my-20\`
+tw\`-my-24\`
+tw\`-my-32\`
+tw\`-my-40\`
+tw\`-my-48\`
+tw\`-my-56\`
+tw\`-my-64\`
+tw\`-my-px\`
+tw\`mx-0\`
+tw\`mx-1\`
+tw\`mx-2\`
+tw\`mx-3\`
+tw\`mx-4\`
+tw\`mx-5\`
+tw\`mx-6\`
+tw\`mx-8\`
+tw\`mx-10\`
+tw\`mx-12\`
+tw\`mx-16\`
+tw\`mx-20\`
+tw\`mx-24\`
+tw\`mx-32\`
+tw\`mx-40\`
+tw\`mx-48\`
+tw\`mx-56\`
+tw\`mx-64\`
+tw\`mx-px\`
+tw\`-mx-1\`
+tw\`-mx-2\`
+tw\`-mx-3\`
+tw\`-mx-4\`
+tw\`-mx-5\`
+tw\`-mx-6\`
+tw\`-mx-8\`
+tw\`-mx-10\`
+tw\`-mx-12\`
+tw\`-mx-16\`
+tw\`-mx-20\`
+tw\`-mx-24\`
+tw\`-mx-32\`
+tw\`-mx-40\`
+tw\`-mx-48\`
+tw\`-mx-56\`
+tw\`-mx-64\`
+tw\`-mx-px\`
+tw\`mt-0\`
+tw\`mt-1\`
+tw\`mt-2\`
+tw\`mt-3\`
+tw\`mt-4\`
+tw\`mt-5\`
+tw\`mt-6\`
+tw\`mt-8\`
+tw\`mt-10\`
+tw\`mt-12\`
+tw\`mt-16\`
+tw\`mt-20\`
+tw\`mt-24\`
+tw\`mt-32\`
+tw\`mt-40\`
+tw\`mt-48\`
+tw\`mt-56\`
+tw\`mt-64\`
+tw\`mt-px\`
+tw\`-mt-1\`
+tw\`-mt-2\`
+tw\`-mt-3\`
+tw\`-mt-4\`
+tw\`-mt-5\`
+tw\`-mt-6\`
+tw\`-mt-8\`
+tw\`-mt-10\`
+tw\`-mt-12\`
+tw\`-mt-16\`
+tw\`-mt-20\`
+tw\`-mt-24\`
+tw\`-mt-32\`
+tw\`-mt-40\`
+tw\`-mt-48\`
+tw\`-mt-56\`
+tw\`-mt-64\`
+tw\`-mt-px\`
+tw\`mr-0\`
+tw\`mr-1\`
+tw\`mr-2\`
+tw\`mr-3\`
+tw\`mr-4\`
+tw\`mr-5\`
+tw\`mr-6\`
+tw\`mr-8\`
+tw\`mr-10\`
+tw\`mr-12\`
+tw\`mr-16\`
+tw\`mr-20\`
+tw\`mr-24\`
+tw\`mr-32\`
+tw\`mr-40\`
+tw\`mr-48\`
+tw\`mr-56\`
+tw\`mr-64\`
+tw\`mr-px\`
+tw\`-mr-1\`
+tw\`-mr-2\`
+tw\`-mr-3\`
+tw\`-mr-4\`
+tw\`-mr-5\`
+tw\`-mr-6\`
+tw\`-mr-8\`
+tw\`-mr-10\`
+tw\`-mr-12\`
+tw\`-mr-16\`
+tw\`-mr-20\`
+tw\`-mr-24\`
+tw\`-mr-32\`
+tw\`-mr-40\`
+tw\`-mr-48\`
+tw\`-mr-56\`
+tw\`-mr-64\`
+tw\`-mr-px\`
+tw\`mb-0\`
+tw\`mb-1\`
+tw\`mb-2\`
+tw\`mb-3\`
+tw\`mb-4\`
+tw\`mb-5\`
+tw\`mb-6\`
+tw\`mb-8\`
+tw\`mb-10\`
+tw\`mb-12\`
+tw\`mb-16\`
+tw\`mb-20\`
+tw\`mb-24\`
+tw\`mb-32\`
+tw\`mb-40\`
+tw\`mb-48\`
+tw\`mb-56\`
+tw\`mb-64\`
+tw\`mb-px\`
+tw\`-mb-1\`
+tw\`-mb-2\`
+tw\`-mb-3\`
+tw\`-mb-4\`
+tw\`-mb-5\`
+tw\`-mb-6\`
+tw\`-mb-8\`
+tw\`-mb-10\`
+tw\`-mb-12\`
+tw\`-mb-16\`
+tw\`-mb-20\`
+tw\`-mb-24\`
+tw\`-mb-32\`
+tw\`-mb-40\`
+tw\`-mb-48\`
+tw\`-mb-56\`
+tw\`-mb-64\`
+tw\`-mb-px\`
+tw\`ml-0\`
+tw\`ml-1\`
+tw\`ml-2\`
+tw\`ml-3\`
+tw\`ml-4\`
+tw\`ml-5\`
+tw\`ml-6\`
+tw\`ml-8\`
+tw\`ml-10\`
+tw\`ml-12\`
+tw\`ml-16\`
+tw\`ml-20\`
+tw\`ml-24\`
+tw\`ml-32\`
+tw\`ml-40\`
+tw\`ml-48\`
+tw\`ml-56\`
+tw\`ml-64\`
+tw\`ml-px\`
+tw\`-ml-1\`
+tw\`-ml-2\`
+tw\`-ml-3\`
+tw\`-ml-4\`
+tw\`-ml-5\`
+tw\`-ml-6\`
+tw\`-ml-8\`
+tw\`-ml-10\`
+tw\`-ml-12\`
+tw\`-ml-16\`
+tw\`-ml-20\`
+tw\`-ml-24\`
+tw\`-ml-32\`
+tw\`-ml-40\`
+tw\`-ml-48\`
+tw\`-ml-56\`
+tw\`-ml-64\`
+tw\`-ml-px\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/padding
+;({
+  paddingTop: 0,
+  paddingRight: 0,
+  paddingBottom: 0,
+  paddingLeft: 0
+})
+;({
+  paddingTop: 4,
+  paddingRight: 4,
+  paddingBottom: 4,
+  paddingLeft: 4
+})
+;({
+  paddingTop: 8,
+  paddingRight: 8,
+  paddingBottom: 8,
+  paddingLeft: 8
+})
+;({
+  paddingTop: 12,
+  paddingRight: 12,
+  paddingBottom: 12,
+  paddingLeft: 12
+})
+;({
+  paddingTop: 16,
+  paddingRight: 16,
+  paddingBottom: 16,
+  paddingLeft: 16
+})
+;({
+  paddingTop: 20,
+  paddingRight: 20,
+  paddingBottom: 20,
+  paddingLeft: 20
+})
+;({
+  paddingTop: 24,
+  paddingRight: 24,
+  paddingBottom: 24,
+  paddingLeft: 24
+})
+;({
+  paddingTop: 32,
+  paddingRight: 32,
+  paddingBottom: 32,
+  paddingLeft: 32
+})
+;({
+  paddingTop: 40,
+  paddingRight: 40,
+  paddingBottom: 40,
+  paddingLeft: 40
+})
+;({
+  paddingTop: 48,
+  paddingRight: 48,
+  paddingBottom: 48,
+  paddingLeft: 48
+})
+;({
+  paddingTop: 64,
+  paddingRight: 64,
+  paddingBottom: 64,
+  paddingLeft: 64
+})
+;({
+  paddingTop: 80,
+  paddingRight: 80,
+  paddingBottom: 80,
+  paddingLeft: 80
+})
+;({
+  paddingTop: 96,
+  paddingRight: 96,
+  paddingBottom: 96,
+  paddingLeft: 96
+})
+;({
+  paddingTop: 128,
+  paddingRight: 128,
+  paddingBottom: 128,
+  paddingLeft: 128
+})
+;({
+  paddingTop: 160,
+  paddingRight: 160,
+  paddingBottom: 160,
+  paddingLeft: 160
+})
+;({
+  paddingTop: 192,
+  paddingRight: 192,
+  paddingBottom: 192,
+  paddingLeft: 192
+})
+;({
+  paddingTop: 224,
+  paddingRight: 224,
+  paddingBottom: 224,
+  paddingLeft: 224
+})
+;({
+  paddingTop: 256,
+  paddingRight: 256,
+  paddingBottom: 256,
+  paddingLeft: 256
+})
+;({
+  paddingTop: 1,
+  paddingRight: 1,
+  paddingBottom: 1,
+  paddingLeft: 1
+})
+;({
+  paddingTop: 0,
+  paddingBottom: 0
+})
+;({
+  paddingTop: 4,
+  paddingBottom: 4
+})
+;({
+  paddingTop: 8,
+  paddingBottom: 8
+})
+;({
+  paddingTop: 12,
+  paddingBottom: 12
+})
+;({
+  paddingTop: 16,
+  paddingBottom: 16
+})
+;({
+  paddingTop: 20,
+  paddingBottom: 20
+})
+;({
+  paddingTop: 24,
+  paddingBottom: 24
+})
+;({
+  paddingTop: 32,
+  paddingBottom: 32
+})
+;({
+  paddingTop: 40,
+  paddingBottom: 40
+})
+;({
+  paddingTop: 48,
+  paddingBottom: 48
+})
+;({
+  paddingTop: 64,
+  paddingBottom: 64
+})
+;({
+  paddingTop: 80,
+  paddingBottom: 80
+})
+;({
+  paddingTop: 96,
+  paddingBottom: 96
+})
+;({
+  paddingTop: 128,
+  paddingBottom: 128
+})
+;({
+  paddingTop: 160,
+  paddingBottom: 160
+})
+;({
+  paddingTop: 192,
+  paddingBottom: 192
+})
+;({
+  paddingTop: 224,
+  paddingBottom: 224
+})
+;({
+  paddingTop: 256,
+  paddingBottom: 256
+})
+;({
+  paddingTop: 1,
+  paddingBottom: 1
+})
+;({
+  paddingLeft: 0,
+  paddingRight: 0
+})
+;({
+  paddingLeft: 4,
+  paddingRight: 4
+})
+;({
+  paddingLeft: 8,
+  paddingRight: 8
+})
+;({
+  paddingLeft: 12,
+  paddingRight: 12
+})
+;({
+  paddingLeft: 16,
+  paddingRight: 16
+})
+;({
+  paddingLeft: 20,
+  paddingRight: 20
+})
+;({
+  paddingLeft: 24,
+  paddingRight: 24
+})
+;({
+  paddingLeft: 32,
+  paddingRight: 32
+})
+;({
+  paddingLeft: 40,
+  paddingRight: 40
+})
+;({
+  paddingLeft: 48,
+  paddingRight: 48
+})
+;({
+  paddingLeft: 64,
+  paddingRight: 64
+})
+;({
+  paddingLeft: 80,
+  paddingRight: 80
+})
+;({
+  paddingLeft: 96,
+  paddingRight: 96
+})
+;({
+  paddingLeft: 128,
+  paddingRight: 128
+})
+;({
+  paddingLeft: 160,
+  paddingRight: 160
+})
+;({
+  paddingLeft: 192,
+  paddingRight: 192
+})
+;({
+  paddingLeft: 224,
+  paddingRight: 224
+})
+;({
+  paddingLeft: 256,
+  paddingRight: 256
+})
+;({
+  paddingLeft: 1,
+  paddingRight: 1
+})
+;({
+  paddingTop: 0
+})
+;({
+  paddingTop: 4
+})
+;({
+  paddingTop: 8
+})
+;({
+  paddingTop: 12
+})
+;({
+  paddingTop: 16
+})
+;({
+  paddingTop: 20
+})
+;({
+  paddingTop: 24
+})
+;({
+  paddingTop: 32
+})
+;({
+  paddingTop: 40
+})
+;({
+  paddingTop: 48
+})
+;({
+  paddingTop: 64
+})
+;({
+  paddingTop: 80
+})
+;({
+  paddingTop: 96
+})
+;({
+  paddingTop: 128
+})
+;({
+  paddingTop: 160
+})
+;({
+  paddingTop: 192
+})
+;({
+  paddingTop: 224
+})
+;({
+  paddingTop: 256
+})
+;({
+  paddingTop: 1
+})
+;({
+  paddingRight: 0
+})
+;({
+  paddingRight: 4
+})
+;({
+  paddingRight: 8
+})
+;({
+  paddingRight: 12
+})
+;({
+  paddingRight: 16
+})
+;({
+  paddingRight: 20
+})
+;({
+  paddingRight: 24
+})
+;({
+  paddingRight: 32
+})
+;({
+  paddingRight: 40
+})
+;({
+  paddingRight: 48
+})
+;({
+  paddingRight: 64
+})
+;({
+  paddingRight: 80
+})
+;({
+  paddingRight: 96
+})
+;({
+  paddingRight: 128
+})
+;({
+  paddingRight: 160
+})
+;({
+  paddingRight: 192
+})
+;({
+  paddingRight: 224
+})
+;({
+  paddingRight: 256
+})
+;({
+  paddingRight: 1
+})
+;({
+  paddingBottom: 0
+})
+;({
+  paddingBottom: 4
+})
+;({
+  paddingBottom: 8
+})
+;({
+  paddingBottom: 12
+})
+;({
+  paddingBottom: 16
+})
+;({
+  paddingBottom: 20
+})
+;({
+  paddingBottom: 24
+})
+;({
+  paddingBottom: 32
+})
+;({
+  paddingBottom: 40
+})
+;({
+  paddingBottom: 48
+})
+;({
+  paddingBottom: 64
+})
+;({
+  paddingBottom: 80
+})
+;({
+  paddingBottom: 96
+})
+;({
+  paddingBottom: 128
+})
+;({
+  paddingBottom: 160
+})
+;({
+  paddingBottom: 192
+})
+;({
+  paddingBottom: 224
+})
+;({
+  paddingBottom: 256
+})
+;({
+  paddingBottom: 1
+})
+;({
+  paddingLeft: 0
+})
+;({
+  paddingLeft: 4
+})
+;({
+  paddingLeft: 8
+})
+;({
+  paddingLeft: 12
+})
+;({
+  paddingLeft: 16
+})
+;({
+  paddingLeft: 20
+})
+;({
+  paddingLeft: 24
+})
+;({
+  paddingLeft: 32
+})
+;({
+  paddingLeft: 40
+})
+;({
+  paddingLeft: 48
+})
+;({
+  paddingLeft: 64
+})
+;({
+  paddingLeft: 80
+})
+;({
+  paddingLeft: 96
+})
+;({
+  paddingLeft: 128
+})
+;({
+  paddingLeft: 160
+})
+;({
+  paddingLeft: 192
+})
+;({
+  paddingLeft: 224
+})
+;({
+  paddingLeft: 256
+})
+;({
+  paddingLeft: 1
+}) // https://tailwindcss.com/docs/margin
+
+;({
+  marginTop: 0,
+  marginRight: 0,
+  marginBottom: 0,
+  marginLeft: 0
+})
+;({
+  marginTop: 4,
+  marginRight: 4,
+  marginBottom: 4,
+  marginLeft: 4
+})
+;({
+  marginTop: 8,
+  marginRight: 8,
+  marginBottom: 8,
+  marginLeft: 8
+})
+;({
+  marginTop: 12,
+  marginRight: 12,
+  marginBottom: 12,
+  marginLeft: 12
+})
+;({
+  marginTop: 16,
+  marginRight: 16,
+  marginBottom: 16,
+  marginLeft: 16
+})
+;({
+  marginTop: 20,
+  marginRight: 20,
+  marginBottom: 20,
+  marginLeft: 20
+})
+;({
+  marginTop: 24,
+  marginRight: 24,
+  marginBottom: 24,
+  marginLeft: 24
+})
+;({
+  marginTop: 32,
+  marginRight: 32,
+  marginBottom: 32,
+  marginLeft: 32
+})
+;({
+  marginTop: 40,
+  marginRight: 40,
+  marginBottom: 40,
+  marginLeft: 40
+})
+;({
+  marginTop: 48,
+  marginRight: 48,
+  marginBottom: 48,
+  marginLeft: 48
+})
+;({
+  marginTop: 64,
+  marginRight: 64,
+  marginBottom: 64,
+  marginLeft: 64
+})
+;({
+  marginTop: 80,
+  marginRight: 80,
+  marginBottom: 80,
+  marginLeft: 80
+})
+;({
+  marginTop: 96,
+  marginRight: 96,
+  marginBottom: 96,
+  marginLeft: 96
+})
+;({
+  marginTop: 128,
+  marginRight: 128,
+  marginBottom: 128,
+  marginLeft: 128
+})
+;({
+  marginTop: 160,
+  marginRight: 160,
+  marginBottom: 160,
+  marginLeft: 160
+})
+;({
+  marginTop: 192,
+  marginRight: 192,
+  marginBottom: 192,
+  marginLeft: 192
+})
+;({
+  marginTop: 224,
+  marginRight: 224,
+  marginBottom: 224,
+  marginLeft: 224
+})
+;({
+  marginTop: 256,
+  marginRight: 256,
+  marginBottom: 256,
+  marginLeft: 256
+})
+;({
+  marginTop: 1,
+  marginRight: 1,
+  marginBottom: 1,
+  marginLeft: 1
+})
+;({
+  marginTop: -4,
+  marginRight: -4,
+  marginBottom: -4,
+  marginLeft: -4
+})
+;({
+  marginTop: -8,
+  marginRight: -8,
+  marginBottom: -8,
+  marginLeft: -8
+})
+;({
+  marginTop: -12,
+  marginRight: -12,
+  marginBottom: -12,
+  marginLeft: -12
+})
+;({
+  marginTop: -16,
+  marginRight: -16,
+  marginBottom: -16,
+  marginLeft: -16
+})
+;({
+  marginTop: -20,
+  marginRight: -20,
+  marginBottom: -20,
+  marginLeft: -20
+})
+;({
+  marginTop: -24,
+  marginRight: -24,
+  marginBottom: -24,
+  marginLeft: -24
+})
+;({
+  marginTop: -32,
+  marginRight: -32,
+  marginBottom: -32,
+  marginLeft: -32
+})
+;({
+  marginTop: -40,
+  marginRight: -40,
+  marginBottom: -40,
+  marginLeft: -40
+})
+;({
+  marginTop: -48,
+  marginRight: -48,
+  marginBottom: -48,
+  marginLeft: -48
+})
+;({
+  marginTop: -64,
+  marginRight: -64,
+  marginBottom: -64,
+  marginLeft: -64
+})
+;({
+  marginTop: -80,
+  marginRight: -80,
+  marginBottom: -80,
+  marginLeft: -80
+})
+;({
+  marginTop: -96,
+  marginRight: -96,
+  marginBottom: -96,
+  marginLeft: -96
+})
+;({
+  marginTop: -128,
+  marginRight: -128,
+  marginBottom: -128,
+  marginLeft: -128
+})
+;({
+  marginTop: -160,
+  marginRight: -160,
+  marginBottom: -160,
+  marginLeft: -160
+})
+;({
+  marginTop: -192,
+  marginRight: -192,
+  marginBottom: -192,
+  marginLeft: -192
+})
+;({
+  marginTop: -224,
+  marginRight: -224,
+  marginBottom: -224,
+  marginLeft: -224
+})
+;({
+  marginTop: -256,
+  marginRight: -256,
+  marginBottom: -256,
+  marginLeft: -256
+})
+;({
+  marginTop: -1,
+  marginRight: -1,
+  marginBottom: -1,
+  marginLeft: -1
+})
+;({
+  marginTop: 0,
+  marginBottom: 0
+})
+;({
+  marginTop: 4,
+  marginBottom: 4
+})
+;({
+  marginTop: 8,
+  marginBottom: 8
+})
+;({
+  marginTop: 12,
+  marginBottom: 12
+})
+;({
+  marginTop: 16,
+  marginBottom: 16
+})
+;({
+  marginTop: 20,
+  marginBottom: 20
+})
+;({
+  marginTop: 24,
+  marginBottom: 24
+})
+;({
+  marginTop: 32,
+  marginBottom: 32
+})
+;({
+  marginTop: 40,
+  marginBottom: 40
+})
+;({
+  marginTop: 48,
+  marginBottom: 48
+})
+;({
+  marginTop: 64,
+  marginBottom: 64
+})
+;({
+  marginTop: 80,
+  marginBottom: 80
+})
+;({
+  marginTop: 96,
+  marginBottom: 96
+})
+;({
+  marginTop: 128,
+  marginBottom: 128
+})
+;({
+  marginTop: 160,
+  marginBottom: 160
+})
+;({
+  marginTop: 192,
+  marginBottom: 192
+})
+;({
+  marginTop: 224,
+  marginBottom: 224
+})
+;({
+  marginTop: 256,
+  marginBottom: 256
+})
+;({
+  marginTop: 1,
+  marginBottom: 1
+})
+;({
+  marginTop: -4,
+  marginBottom: -4
+})
+;({
+  marginTop: -8,
+  marginBottom: -8
+})
+;({
+  marginTop: -12,
+  marginBottom: -12
+})
+;({
+  marginTop: -16,
+  marginBottom: -16
+})
+;({
+  marginTop: -20,
+  marginBottom: -20
+})
+;({
+  marginTop: -24,
+  marginBottom: -24
+})
+;({
+  marginTop: -32,
+  marginBottom: -32
+})
+;({
+  marginTop: -40,
+  marginBottom: -40
+})
+;({
+  marginTop: -48,
+  marginBottom: -48
+})
+;({
+  marginTop: -64,
+  marginBottom: -64
+})
+;({
+  marginTop: -80,
+  marginBottom: -80
+})
+;({
+  marginTop: -96,
+  marginBottom: -96
+})
+;({
+  marginTop: -128,
+  marginBottom: -128
+})
+;({
+  marginTop: -160,
+  marginBottom: -160
+})
+;({
+  marginTop: -192,
+  marginBottom: -192
+})
+;({
+  marginTop: -224,
+  marginBottom: -224
+})
+;({
+  marginTop: -256,
+  marginBottom: -256
+})
+;({
+  marginTop: -1,
+  marginBottom: -1
+})
+;({
+  marginLeft: 0,
+  marginRight: 0
+})
+;({
+  marginLeft: 4,
+  marginRight: 4
+})
+;({
+  marginLeft: 8,
+  marginRight: 8
+})
+;({
+  marginLeft: 12,
+  marginRight: 12
+})
+;({
+  marginLeft: 16,
+  marginRight: 16
+})
+;({
+  marginLeft: 20,
+  marginRight: 20
+})
+;({
+  marginLeft: 24,
+  marginRight: 24
+})
+;({
+  marginLeft: 32,
+  marginRight: 32
+})
+;({
+  marginLeft: 40,
+  marginRight: 40
+})
+;({
+  marginLeft: 48,
+  marginRight: 48
+})
+;({
+  marginLeft: 64,
+  marginRight: 64
+})
+;({
+  marginLeft: 80,
+  marginRight: 80
+})
+;({
+  marginLeft: 96,
+  marginRight: 96
+})
+;({
+  marginLeft: 128,
+  marginRight: 128
+})
+;({
+  marginLeft: 160,
+  marginRight: 160
+})
+;({
+  marginLeft: 192,
+  marginRight: 192
+})
+;({
+  marginLeft: 224,
+  marginRight: 224
+})
+;({
+  marginLeft: 256,
+  marginRight: 256
+})
+;({
+  marginLeft: 1,
+  marginRight: 1
+})
+;({
+  marginLeft: -4,
+  marginRight: -4
+})
+;({
+  marginLeft: -8,
+  marginRight: -8
+})
+;({
+  marginLeft: -12,
+  marginRight: -12
+})
+;({
+  marginLeft: -16,
+  marginRight: -16
+})
+;({
+  marginLeft: -20,
+  marginRight: -20
+})
+;({
+  marginLeft: -24,
+  marginRight: -24
+})
+;({
+  marginLeft: -32,
+  marginRight: -32
+})
+;({
+  marginLeft: -40,
+  marginRight: -40
+})
+;({
+  marginLeft: -48,
+  marginRight: -48
+})
+;({
+  marginLeft: -64,
+  marginRight: -64
+})
+;({
+  marginLeft: -80,
+  marginRight: -80
+})
+;({
+  marginLeft: -96,
+  marginRight: -96
+})
+;({
+  marginLeft: -128,
+  marginRight: -128
+})
+;({
+  marginLeft: -160,
+  marginRight: -160
+})
+;({
+  marginLeft: -192,
+  marginRight: -192
+})
+;({
+  marginLeft: -224,
+  marginRight: -224
+})
+;({
+  marginLeft: -256,
+  marginRight: -256
+})
+;({
+  marginLeft: -1,
+  marginRight: -1
+})
+;({
+  marginTop: 0
+})
+;({
+  marginTop: 4
+})
+;({
+  marginTop: 8
+})
+;({
+  marginTop: 12
+})
+;({
+  marginTop: 16
+})
+;({
+  marginTop: 20
+})
+;({
+  marginTop: 24
+})
+;({
+  marginTop: 32
+})
+;({
+  marginTop: 40
+})
+;({
+  marginTop: 48
+})
+;({
+  marginTop: 64
+})
+;({
+  marginTop: 80
+})
+;({
+  marginTop: 96
+})
+;({
+  marginTop: 128
+})
+;({
+  marginTop: 160
+})
+;({
+  marginTop: 192
+})
+;({
+  marginTop: 224
+})
+;({
+  marginTop: 256
+})
+;({
+  marginTop: 1
+})
+;({
+  marginTop: -4
+})
+;({
+  marginTop: -8
+})
+;({
+  marginTop: -12
+})
+;({
+  marginTop: -16
+})
+;({
+  marginTop: -20
+})
+;({
+  marginTop: -24
+})
+;({
+  marginTop: -32
+})
+;({
+  marginTop: -40
+})
+;({
+  marginTop: -48
+})
+;({
+  marginTop: -64
+})
+;({
+  marginTop: -80
+})
+;({
+  marginTop: -96
+})
+;({
+  marginTop: -128
+})
+;({
+  marginTop: -160
+})
+;({
+  marginTop: -192
+})
+;({
+  marginTop: -224
+})
+;({
+  marginTop: -256
+})
+;({
+  marginTop: -1
+})
+;({
+  marginRight: 0
+})
+;({
+  marginRight: 4
+})
+;({
+  marginRight: 8
+})
+;({
+  marginRight: 12
+})
+;({
+  marginRight: 16
+})
+;({
+  marginRight: 20
+})
+;({
+  marginRight: 24
+})
+;({
+  marginRight: 32
+})
+;({
+  marginRight: 40
+})
+;({
+  marginRight: 48
+})
+;({
+  marginRight: 64
+})
+;({
+  marginRight: 80
+})
+;({
+  marginRight: 96
+})
+;({
+  marginRight: 128
+})
+;({
+  marginRight: 160
+})
+;({
+  marginRight: 192
+})
+;({
+  marginRight: 224
+})
+;({
+  marginRight: 256
+})
+;({
+  marginRight: 1
+})
+;({
+  marginRight: -4
+})
+;({
+  marginRight: -8
+})
+;({
+  marginRight: -12
+})
+;({
+  marginRight: -16
+})
+;({
+  marginRight: -20
+})
+;({
+  marginRight: -24
+})
+;({
+  marginRight: -32
+})
+;({
+  marginRight: -40
+})
+;({
+  marginRight: -48
+})
+;({
+  marginRight: -64
+})
+;({
+  marginRight: -80
+})
+;({
+  marginRight: -96
+})
+;({
+  marginRight: -128
+})
+;({
+  marginRight: -160
+})
+;({
+  marginRight: -192
+})
+;({
+  marginRight: -224
+})
+;({
+  marginRight: -256
+})
+;({
+  marginRight: -1
+})
+;({
+  marginBottom: 0
+})
+;({
+  marginBottom: 4
+})
+;({
+  marginBottom: 8
+})
+;({
+  marginBottom: 12
+})
+;({
+  marginBottom: 16
+})
+;({
+  marginBottom: 20
+})
+;({
+  marginBottom: 24
+})
+;({
+  marginBottom: 32
+})
+;({
+  marginBottom: 40
+})
+;({
+  marginBottom: 48
+})
+;({
+  marginBottom: 64
+})
+;({
+  marginBottom: 80
+})
+;({
+  marginBottom: 96
+})
+;({
+  marginBottom: 128
+})
+;({
+  marginBottom: 160
+})
+;({
+  marginBottom: 192
+})
+;({
+  marginBottom: 224
+})
+;({
+  marginBottom: 256
+})
+;({
+  marginBottom: 1
+})
+;({
+  marginBottom: -4
+})
+;({
+  marginBottom: -8
+})
+;({
+  marginBottom: -12
+})
+;({
+  marginBottom: -16
+})
+;({
+  marginBottom: -20
+})
+;({
+  marginBottom: -24
+})
+;({
+  marginBottom: -32
+})
+;({
+  marginBottom: -40
+})
+;({
+  marginBottom: -48
+})
+;({
+  marginBottom: -64
+})
+;({
+  marginBottom: -80
+})
+;({
+  marginBottom: -96
+})
+;({
+  marginBottom: -128
+})
+;({
+  marginBottom: -160
+})
+;({
+  marginBottom: -192
+})
+;({
+  marginBottom: -224
+})
+;({
+  marginBottom: -256
+})
+;({
+  marginBottom: -1
+})
+;({
+  marginLeft: 0
+})
+;({
+  marginLeft: 4
+})
+;({
+  marginLeft: 8
+})
+;({
+  marginLeft: 12
+})
+;({
+  marginLeft: 16
+})
+;({
+  marginLeft: 20
+})
+;({
+  marginLeft: 24
+})
+;({
+  marginLeft: 32
+})
+;({
+  marginLeft: 40
+})
+;({
+  marginLeft: 48
+})
+;({
+  marginLeft: 64
+})
+;({
+  marginLeft: 80
+})
+;({
+  marginLeft: 96
+})
+;({
+  marginLeft: 128
+})
+;({
+  marginLeft: 160
+})
+;({
+  marginLeft: 192
+})
+;({
+  marginLeft: 224
+})
+;({
+  marginLeft: 256
+})
+;({
+  marginLeft: 1
+})
+;({
+  marginLeft: -4
+})
+;({
+  marginLeft: -8
+})
+;({
+  marginLeft: -12
+})
+;({
+  marginLeft: -16
+})
+;({
+  marginLeft: -20
+})
+;({
+  marginLeft: -24
+})
+;({
+  marginLeft: -32
+})
+;({
+  marginLeft: -40
+})
+;({
+  marginLeft: -48
+})
+;({
+  marginLeft: -64
+})
+;({
+  marginLeft: -80
+})
+;({
+  marginLeft: -96
+})
+;({
+  marginLeft: -128
+})
+;({
+  marginLeft: -160
+})
+;({
+  marginLeft: -192
+})
+;({
+  marginLeft: -224
+})
+;({
+  marginLeft: -256
+})
+;({
+  marginLeft: -1
+})
+"
+`;
+
+exports[`tailwind.macro typography.js: typography.js 1`] = `
+"
+import tw from './macro'
+
+// https://tailwindcss.com/docs/font-size
+tw\`text-xs\`
+tw\`text-sm\`
+tw\`text-base\`
+tw\`text-lg\`
+tw\`text-xl\`
+tw\`text-2xl\`
+tw\`text-3xl\`
+tw\`text-4xl\`
+tw\`text-5xl\`
+tw\`text-6xl\`
+
+// https://tailwindcss.com/docs/font-style
+tw\`italic\`
+tw\`not-italic\`
+
+// https://tailwindcss.com/docs/font-weight
+tw\`font-hairline\`
+tw\`font-thin\`
+tw\`font-light\`
+tw\`font-normal\`
+tw\`font-medium\`
+tw\`font-semibold\`
+tw\`font-bold\`
+tw\`font-extrabold\`
+tw\`font-black\`
+
+// https://tailwindcss.com/docs/letter-spacing
+tw\`tracking-tighter\`
+tw\`tracking-tight\`
+tw\`tracking-normal\`
+tw\`tracking-wide\`
+tw\`tracking-wider\`
+tw\`tracking-widest\`
+
+// https://tailwindcss.com/docs/line-height
+tw\`leading-none\`
+tw\`leading-tight\`
+tw\`leading-snug\`
+tw\`leading-normal\`
+tw\`leading-relaxed\`
+tw\`leading-loose\`
+tw\`leading-3\`
+tw\`leading-4\`
+tw\`leading-5\`
+tw\`leading-6\`
+tw\`leading-7\`
+tw\`leading-8\`
+tw\`leading-9\`
+tw\`leading-10\`
+
+// https://tailwindcss.com/docs/text-align
+tw\`text-left\`
+tw\`text-center\`
+tw\`text-right\`
+tw\`text-justify\`
+
+// https://tailwindcss.com/docs/text-color
+tw\`text-transparent\`
+tw\`text-black\`
+tw\`text-white\`
+tw\`text-gray-100\`
+tw\`text-gray-200\`
+tw\`text-gray-300\`
+tw\`text-gray-400\`
+tw\`text-gray-500\`
+tw\`text-gray-600\`
+tw\`text-gray-700\`
+tw\`text-gray-800\`
+tw\`text-gray-900\`
+tw\`text-red-100\`
+tw\`text-red-200\`
+tw\`text-red-300\`
+tw\`text-red-400\`
+tw\`text-red-500\`
+tw\`text-red-600\`
+tw\`text-red-700\`
+tw\`text-red-800\`
+tw\`text-red-900\`
+tw\`text-orange-100\`
+tw\`text-orange-200\`
+tw\`text-orange-300\`
+tw\`text-orange-400\`
+tw\`text-orange-500\`
+tw\`text-orange-600\`
+tw\`text-orange-700\`
+tw\`text-orange-800\`
+tw\`text-orange-900\`
+tw\`text-yellow-100\`
+tw\`text-yellow-200\`
+tw\`text-yellow-300\`
+tw\`text-yellow-400\`
+tw\`text-yellow-500\`
+tw\`text-yellow-600\`
+tw\`text-yellow-700\`
+tw\`text-yellow-800\`
+tw\`text-yellow-900\`
+tw\`text-green-100\`
+tw\`text-green-200\`
+tw\`text-green-300\`
+tw\`text-green-400\`
+tw\`text-green-500\`
+tw\`text-green-600\`
+tw\`text-green-700\`
+tw\`text-green-800\`
+tw\`text-green-900\`
+tw\`text-teal-100\`
+tw\`text-teal-200\`
+tw\`text-teal-300\`
+tw\`text-teal-400\`
+tw\`text-teal-500\`
+tw\`text-teal-600\`
+tw\`text-teal-700\`
+tw\`text-teal-800\`
+tw\`text-teal-900\`
+tw\`text-blue-100\`
+tw\`text-blue-200\`
+tw\`text-blue-300\`
+tw\`text-blue-400\`
+tw\`text-blue-500\`
+tw\`text-blue-600\`
+tw\`text-blue-700\`
+tw\`text-blue-800\`
+tw\`text-blue-900\`
+tw\`text-indigo-100\`
+tw\`text-indigo-200\`
+tw\`text-indigo-300\`
+tw\`text-indigo-400\`
+tw\`text-indigo-500\`
+tw\`text-indigo-600\`
+tw\`text-indigo-700\`
+tw\`text-indigo-800\`
+tw\`text-indigo-900\`
+tw\`text-purple-100\`
+tw\`text-purple-200\`
+tw\`text-purple-300\`
+tw\`text-purple-400\`
+tw\`text-purple-500\`
+tw\`text-purple-600\`
+tw\`text-purple-700\`
+tw\`text-purple-800\`
+tw\`text-purple-900\`
+tw\`text-pink-100\`
+tw\`text-pink-200\`
+tw\`text-pink-300\`
+tw\`text-pink-400\`
+tw\`text-pink-500\`
+tw\`text-pink-600\`
+tw\`text-pink-700\`
+tw\`text-pink-800\`
+tw\`text-pink-900\`
+
+// https://tailwindcss.com/docs/text-align
+tw\`text-left\`
+tw\`text-center\`
+tw\`text-right\`
+tw\`text-justify\`
+
+// https://tailwindcss.com/docs/text-color
+tw\`text-transparent\`
+tw\`text-black\`
+tw\`text-white\`
+tw\`text-gray-100\`
+tw\`text-gray-200\`
+tw\`text-gray-300\`
+tw\`text-gray-400\`
+tw\`text-gray-500\`
+tw\`text-gray-600\`
+tw\`text-gray-700\`
+tw\`text-gray-800\`
+tw\`text-gray-900\`
+tw\`text-red-100\`
+tw\`text-red-200\`
+tw\`text-red-300\`
+tw\`text-red-400\`
+tw\`text-red-500\`
+tw\`text-red-600\`
+tw\`text-red-700\`
+tw\`text-red-800\`
+tw\`text-red-900\`
+tw\`text-orange-100\`
+tw\`text-orange-200\`
+tw\`text-orange-300\`
+tw\`text-orange-400\`
+tw\`text-orange-500\`
+tw\`text-orange-600\`
+tw\`text-orange-700\`
+tw\`text-orange-800\`
+tw\`text-orange-900\`
+tw\`text-yellow-100\`
+tw\`text-yellow-200\`
+tw\`text-yellow-300\`
+tw\`text-yellow-400\`
+tw\`text-yellow-500\`
+tw\`text-yellow-600\`
+tw\`text-yellow-700\`
+tw\`text-yellow-800\`
+tw\`text-yellow-900\`
+tw\`text-green-100\`
+tw\`text-green-200\`
+tw\`text-green-300\`
+tw\`text-green-400\`
+tw\`text-green-500\`
+tw\`text-green-600\`
+tw\`text-green-700\`
+tw\`text-green-800\`
+tw\`text-green-900\`
+tw\`text-teal-100\`
+tw\`text-teal-200\`
+tw\`text-teal-300\`
+tw\`text-teal-400\`
+tw\`text-teal-500\`
+tw\`text-teal-600\`
+tw\`text-teal-700\`
+tw\`text-teal-800\`
+tw\`text-teal-900\`
+tw\`text-blue-100\`
+tw\`text-blue-200\`
+tw\`text-blue-300\`
+tw\`text-blue-400\`
+tw\`text-blue-500\`
+tw\`text-blue-600\`
+tw\`text-blue-700\`
+tw\`text-blue-800\`
+tw\`text-blue-900\`
+tw\`text-indigo-100\`
+tw\`text-indigo-200\`
+tw\`text-indigo-300\`
+tw\`text-indigo-400\`
+tw\`text-indigo-500\`
+tw\`text-indigo-600\`
+tw\`text-indigo-700\`
+tw\`text-indigo-800\`
+tw\`text-indigo-900\`
+tw\`text-purple-100\`
+tw\`text-purple-200\`
+tw\`text-purple-300\`
+tw\`text-purple-400\`
+tw\`text-purple-500\`
+tw\`text-purple-600\`
+tw\`text-purple-700\`
+tw\`text-purple-800\`
+tw\`text-purple-900\`
+tw\`text-pink-100\`
+tw\`text-pink-200\`
+tw\`text-pink-300\`
+tw\`text-pink-400\`
+tw\`text-pink-500\`
+tw\`text-pink-600\`
+tw\`text-pink-700\`
+tw\`text-pink-800\`
+tw\`text-pink-900\`
+
+// https://tailwindcss.com/docs/text-decoration
+tw\`underline\`
+tw\`line-through\`
+tw\`no-underline\`
+
+// https://tailwindcss.com/docs/text-transform
+tw\`uppercase\`
+tw\`lowercase\`
+tw\`capitalize\`
+tw\`normal-case\`
+
+      ↓ ↓ ↓ ↓ ↓ ↓
+
+// https://tailwindcss.com/docs/font-size
+;({
+  fontSize: 12
+})
+;({
+  fontSize: 14
+})
+;({
+  fontSize: 16
+})
+;({
+  fontSize: 18
+})
+;({
+  fontSize: 20
+})
+;({
+  fontSize: 24
+})
+;({
+  fontSize: 30
+})
+;({
+  fontSize: 36
+})
+;({
+  fontSize: 48
+})
+;({
+  fontSize: 64
+}) // https://tailwindcss.com/docs/font-style
+
+;({
+  fontStyle: 'italic'
+})
+;({
+  fontStyle: 'normal'
+}) // https://tailwindcss.com/docs/font-weight
+
+;({
+  fontWeight: '100'
+})
+;({
+  fontWeight: '200'
+})
+;({
+  fontWeight: '300'
+})
+;({
+  fontWeight: '400'
+})
+;({
+  fontWeight: '500'
+})
+;({
+  fontWeight: '600'
+})
+;({
+  fontWeight: '700'
+})
+;({
+  fontWeight: '800'
+})
+;({
+  fontWeight: '900'
+}) // https://tailwindcss.com/docs/letter-spacing
+
+;({
+  letterSpacing: '-0.05em'
+})
+;({
+  letterSpacing: '-0.025em'
+})
+;({
+  letterSpacing: 0
+})
+;({
+  letterSpacing: '0.025em'
+})
+;({
+  letterSpacing: '0.05em'
+})
+;({
+  letterSpacing: '0.1em'
+}) // https://tailwindcss.com/docs/line-height
+
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({})
+;({}) // https://tailwindcss.com/docs/text-align
+
+;({
+  textAlign: 'left'
+})
+;({
+  textAlign: 'center'
+})
+;({
+  textAlign: 'right'
+})
+;({
+  textAlign: 'justify'
+}) // https://tailwindcss.com/docs/text-color
+
+;({
+  color: 'transparent'
+})
+;({
+  color: '#000'
+})
+;({
+  color: '#fff'
+})
+;({
+  color: '#f7fafc'
+})
+;({
+  color: '#edf2f7'
+})
+;({
+  color: '#e2e8f0'
+})
+;({
+  color: '#cbd5e0'
+})
+;({
+  color: '#a0aec0'
+})
+;({
+  color: '#718096'
+})
+;({
+  color: '#4a5568'
+})
+;({
+  color: '#2d3748'
+})
+;({
+  color: '#1a202c'
+})
+;({
+  color: '#fff5f5'
+})
+;({
+  color: '#fed7d7'
+})
+;({
+  color: '#feb2b2'
+})
+;({
+  color: '#fc8181'
+})
+;({
+  color: '#f56565'
+})
+;({
+  color: '#e53e3e'
+})
+;({
+  color: '#c53030'
+})
+;({
+  color: '#9b2c2c'
+})
+;({
+  color: '#742a2a'
+})
+;({
+  color: '#fffaf0'
+})
+;({
+  color: '#feebc8'
+})
+;({
+  color: '#fbd38d'
+})
+;({
+  color: '#f6ad55'
+})
+;({
+  color: '#ed8936'
+})
+;({
+  color: '#dd6b20'
+})
+;({
+  color: '#c05621'
+})
+;({
+  color: '#9c4221'
+})
+;({
+  color: '#7b341e'
+})
+;({
+  color: '#fffff0'
+})
+;({
+  color: '#fefcbf'
+})
+;({
+  color: '#faf089'
+})
+;({
+  color: '#f6e05e'
+})
+;({
+  color: '#ecc94b'
+})
+;({
+  color: '#d69e2e'
+})
+;({
+  color: '#b7791f'
+})
+;({
+  color: '#975a16'
+})
+;({
+  color: '#744210'
+})
+;({
+  color: '#f0fff4'
+})
+;({
+  color: '#c6f6d5'
+})
+;({
+  color: '#9ae6b4'
+})
+;({
+  color: '#68d391'
+})
+;({
+  color: '#48bb78'
+})
+;({
+  color: '#38a169'
+})
+;({
+  color: '#2f855a'
+})
+;({
+  color: '#276749'
+})
+;({
+  color: '#22543d'
+})
+;({
+  color: '#e6fffa'
+})
+;({
+  color: '#b2f5ea'
+})
+;({
+  color: '#81e6d9'
+})
+;({
+  color: '#4fd1c5'
+})
+;({
+  color: '#38b2ac'
+})
+;({
+  color: '#319795'
+})
+;({
+  color: '#2c7a7b'
+})
+;({
+  color: '#285e61'
+})
+;({
+  color: '#234e52'
+})
+;({
+  color: '#ebf8ff'
+})
+;({
+  color: '#bee3f8'
+})
+;({
+  color: '#90cdf4'
+})
+;({
+  color: '#63b3ed'
+})
+;({
+  color: '#4299e1'
+})
+;({
+  color: '#3182ce'
+})
+;({
+  color: '#2b6cb0'
+})
+;({
+  color: '#2c5282'
+})
+;({
+  color: '#2a4365'
+})
+;({
+  color: '#ebf4ff'
+})
+;({
+  color: '#c3dafe'
+})
+;({
+  color: '#a3bffa'
+})
+;({
+  color: '#7f9cf5'
+})
+;({
+  color: '#667eea'
+})
+;({
+  color: '#5a67d8'
+})
+;({
+  color: '#4c51bf'
+})
+;({
+  color: '#434190'
+})
+;({
+  color: '#3c366b'
+})
+;({
+  color: '#faf5ff'
+})
+;({
+  color: '#e9d8fd'
+})
+;({
+  color: '#d6bcfa'
+})
+;({
+  color: '#b794f4'
+})
+;({
+  color: '#9f7aea'
+})
+;({
+  color: '#805ad5'
+})
+;({
+  color: '#6b46c1'
+})
+;({
+  color: '#553c9a'
+})
+;({
+  color: '#44337a'
+})
+;({
+  color: '#fff5f7'
+})
+;({
+  color: '#fed7e2'
+})
+;({
+  color: '#fbb6ce'
+})
+;({
+  color: '#f687b3'
+})
+;({
+  color: '#ed64a6'
+})
+;({
+  color: '#d53f8c'
+})
+;({
+  color: '#b83280'
+})
+;({
+  color: '#97266d'
+})
+;({
+  color: '#702459'
+}) // https://tailwindcss.com/docs/text-align
+
+;({
+  textAlign: 'left'
+})
+;({
+  textAlign: 'center'
+})
+;({
+  textAlign: 'right'
+})
+;({
+  textAlign: 'justify'
+}) // https://tailwindcss.com/docs/text-color
+
+;({
+  color: 'transparent'
+})
+;({
+  color: '#000'
+})
+;({
+  color: '#fff'
+})
+;({
+  color: '#f7fafc'
+})
+;({
+  color: '#edf2f7'
+})
+;({
+  color: '#e2e8f0'
+})
+;({
+  color: '#cbd5e0'
+})
+;({
+  color: '#a0aec0'
+})
+;({
+  color: '#718096'
+})
+;({
+  color: '#4a5568'
+})
+;({
+  color: '#2d3748'
+})
+;({
+  color: '#1a202c'
+})
+;({
+  color: '#fff5f5'
+})
+;({
+  color: '#fed7d7'
+})
+;({
+  color: '#feb2b2'
+})
+;({
+  color: '#fc8181'
+})
+;({
+  color: '#f56565'
+})
+;({
+  color: '#e53e3e'
+})
+;({
+  color: '#c53030'
+})
+;({
+  color: '#9b2c2c'
+})
+;({
+  color: '#742a2a'
+})
+;({
+  color: '#fffaf0'
+})
+;({
+  color: '#feebc8'
+})
+;({
+  color: '#fbd38d'
+})
+;({
+  color: '#f6ad55'
+})
+;({
+  color: '#ed8936'
+})
+;({
+  color: '#dd6b20'
+})
+;({
+  color: '#c05621'
+})
+;({
+  color: '#9c4221'
+})
+;({
+  color: '#7b341e'
+})
+;({
+  color: '#fffff0'
+})
+;({
+  color: '#fefcbf'
+})
+;({
+  color: '#faf089'
+})
+;({
+  color: '#f6e05e'
+})
+;({
+  color: '#ecc94b'
+})
+;({
+  color: '#d69e2e'
+})
+;({
+  color: '#b7791f'
+})
+;({
+  color: '#975a16'
+})
+;({
+  color: '#744210'
+})
+;({
+  color: '#f0fff4'
+})
+;({
+  color: '#c6f6d5'
+})
+;({
+  color: '#9ae6b4'
+})
+;({
+  color: '#68d391'
+})
+;({
+  color: '#48bb78'
+})
+;({
+  color: '#38a169'
+})
+;({
+  color: '#2f855a'
+})
+;({
+  color: '#276749'
+})
+;({
+  color: '#22543d'
+})
+;({
+  color: '#e6fffa'
+})
+;({
+  color: '#b2f5ea'
+})
+;({
+  color: '#81e6d9'
+})
+;({
+  color: '#4fd1c5'
+})
+;({
+  color: '#38b2ac'
+})
+;({
+  color: '#319795'
+})
+;({
+  color: '#2c7a7b'
+})
+;({
+  color: '#285e61'
+})
+;({
+  color: '#234e52'
+})
+;({
+  color: '#ebf8ff'
+})
+;({
+  color: '#bee3f8'
+})
+;({
+  color: '#90cdf4'
+})
+;({
+  color: '#63b3ed'
+})
+;({
+  color: '#4299e1'
+})
+;({
+  color: '#3182ce'
+})
+;({
+  color: '#2b6cb0'
+})
+;({
+  color: '#2c5282'
+})
+;({
+  color: '#2a4365'
+})
+;({
+  color: '#ebf4ff'
+})
+;({
+  color: '#c3dafe'
+})
+;({
+  color: '#a3bffa'
+})
+;({
+  color: '#7f9cf5'
+})
+;({
+  color: '#667eea'
+})
+;({
+  color: '#5a67d8'
+})
+;({
+  color: '#4c51bf'
+})
+;({
+  color: '#434190'
+})
+;({
+  color: '#3c366b'
+})
+;({
+  color: '#faf5ff'
+})
+;({
+  color: '#e9d8fd'
+})
+;({
+  color: '#d6bcfa'
+})
+;({
+  color: '#b794f4'
+})
+;({
+  color: '#9f7aea'
+})
+;({
+  color: '#805ad5'
+})
+;({
+  color: '#6b46c1'
+})
+;({
+  color: '#553c9a'
+})
+;({
+  color: '#44337a'
+})
+;({
+  color: '#fff5f7'
+})
+;({
+  color: '#fed7e2'
+})
+;({
+  color: '#fbb6ce'
+})
+;({
+  color: '#f687b3'
+})
+;({
+  color: '#ed64a6'
+})
+;({
+  color: '#d53f8c'
+})
+;({
+  color: '#b83280'
+})
+;({
+  color: '#97266d'
+})
+;({
+  color: '#702459'
+}) // https://tailwindcss.com/docs/text-decoration
+
+;({
+  textDecorationLine: 'underline'
+})
+;({
+  textDecorationLine: 'line-through'
+})
+;({
+  textDecorationLine: 'none'
+}) // https://tailwindcss.com/docs/text-transform
+
+;({
+  textTransform: 'uppercase'
+})
+;({
+  textTransform: 'lowercase'
+})
+;({
+  textTransform: 'capitalize'
+})
+;({
+  textTransform: 'none'
+})
+"
+`;

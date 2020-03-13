@@ -1,0 +1,54 @@
+{
+  "name": "tw.macro",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ecreeth/tw.macro#readme",
+  "description": "Use Tailwind classes with React Native",
+  "author": "Luis M. Alvarado <luismiguel1730@gmail.com>",
+  "main": "macro.js",
+  "license": "MIT",
+  "keywords": [
+    "tailwind",
+    "react-native",
+    "css-in-js",
+    "babel-plugin",
+    "babel-plugin-macros"
+  ],
+  "scripts": {
+    "dev": "nodemon --watch src -x \"npm run build:macro\"",
+    "build": "npm run build:all",
+    "build:all": "npm run build:macro",
+    "build:macro": "microbundle -i src/macro.js -f cjs -o ./macro.js --target node",
+    "test": "npm run build && jest",
+    "prepublish": "npm run build"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "files": [
+    "macro.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecreeth/tw.macro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ecreeth/tw.macro/issues"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.8.4",
+    "babel-plugin-macros": "^2.8.0"
+  },
+  "devDependencies": {
+    "babel-plugin-tester": "^6.0.1",
+    "glob-all": "^3.1.0",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "microbundle": "^0.11.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1",
+    "tailwindcss": "^1.2.0"
+  }
+}

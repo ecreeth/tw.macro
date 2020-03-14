@@ -3,6 +3,7 @@ import tw from './macro'
 // https://tailwindcss.com/docs/background-color
 tw`bg-transparent text-sm text-blue-500`
 
+tw`bg-personal`
 tw`bg-black`
 tw`bg-white`
 tw`bg-gray-100`

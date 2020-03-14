@@ -7,6 +7,7 @@ import tw from './macro'
 // https://tailwindcss.com/docs/background-color
 tw\`bg-transparent text-sm text-blue-500\`
 
+tw\`bg-personal\`
 tw\`bg-black\`
 tw\`bg-white\`
 tw\`bg-gray-100\`
@@ -286,7 +287,10 @@ tw\`rounded-bl-full\`
   color: '#4299e1'
 })
 ;({
-  backgroundColor: '#000'
+  backgroundColor: 'coral'
+})
+;({
+  backgroundColor: 'black'
 })
 ;({
   backgroundColor: '#fff'

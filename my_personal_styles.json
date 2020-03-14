@@ -1,0 +1,8 @@
+{
+  "bg-black": {
+    "backgroundColor": "black"
+  },
+  "bg-personal": {
+    "backgroundColor": "coral"
+  }
+}

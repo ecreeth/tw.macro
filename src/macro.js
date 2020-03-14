@@ -3,7 +3,6 @@ import parseTte from './parseTte'
 import getStyles from './getStyles'
 import replaceWithLocation from './replaceWithLocation'
 import { resolve } from 'path'
-import { existsSync } from 'fs'
 
 const TW_CLASSES_FILENAME = './styles.json'
 
@@ -13,14 +12,7 @@ function twinMacro({ babel: { types: t }, references, state, config }) {
   const sourceRoot = state.file.opts.sourceRoot || '.'
   const program = state.file.path
   const configPath = resolve(sourceRoot, config.file || TW_CLASSES_FILENAME)
-  const configExists = existsSync(configPath)
-
-  if (configExists) {
-    const tailwindConfig = require(configPath)
-    state.config = tailwindConfig
-  } else {
-    state.config = {}
-  }
+  state.config = require(configPath)
 
   references.default.forEach(path => {
     const parent = path.findParent(x => x.isTaggedTemplateExpression())

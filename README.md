@@ -5,13 +5,14 @@
 
 ```js
 // In
-import tw from 'twin.macro'
-const buttonStyles = tw`bg-purple-700 text-sm`
+import tw from '@ecreeth/tw.macro'
+const buttonStyles = tw`bg-transparent text-sm text-blue-500`
 
 // Out
 const buttonStyles = {
-  backgroundColor: '#6b46c1',
-  fontSize: '0.875rem'
+  backgroundColor: 'transparent',
+  fontSize: 14,
+  color: '#4299e1'
 }
 ```
 

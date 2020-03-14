@@ -40,7 +40,7 @@
     "tailwind": {
       "file": "./my_personal_styles.json"
     }
-},
+  },
   "dependencies": {
     "@babel/parser": "^7.8.8",
     "babel-plugin-macros": "^2.8.0"

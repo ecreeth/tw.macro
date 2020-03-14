@@ -1,6 +1,6 @@
 {
   "name": "@ecreeth/tw.macro",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "homepage": "https://github.com/ecreeth/tw.macro#readme",
   "description": "Use Tailwind classes with React Native",
   "author": "Luis M. Alvarado <luismiguel1730@gmail.com>",
